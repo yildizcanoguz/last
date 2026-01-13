@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Birim Fiyat Arama (GitHub Pages)</title>
+  <style>
+    :root{
+      --bg:#f4f6f8; --card:#ffffff; --text:#1f2937; --muted:#6b7280; --line:#e5e7eb;
+      --accent:#2563eb; --accent2:#10b981; --danger:#ef4444;
+      --r:18px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; background:var(--bg); color:var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      padding:16px;
+    }
+    .wrap{max-width:1100px; margin:0 auto}
+    .card{
+      background:var(--card); border:1px solid var(--line); border-radius:var(--r);
+      box-shadow: 0 10px 30px rgba(0,0,0,.05);
+      padding:16px;
+    }
+    header{
+      display:flex; gap:12px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap;
+      margin-bottom:12px;
+    }
+    h1{font-size:18px; margin:0}
+    .sub{color:var(--muted); font-size:12px; margin-top:4px}
+    .row{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
+    .grow{flex:1 1 280px}
+    input[type="search"], select{
+      width:100%;
+      padding:12px 12px;
+      border:1px solid var(--line);
+      border-radius:14px;
+      outline:none;
+      background:#fff;
+      font-size:14px;
+    }
+    input[type="search"]:focus, select:focus{border-color:rgba(37,99,235,.5); box-shadow:0 0 0 4px rgba(37,99,235,.12)}
+    .btn{
+      border:1px solid var(--line);
+      background:#fff;
+      padding:10px 12px;
+      border-radius:14px;
+      cursor:pointer;
+      font-weight:600;
+      font-size:13px;
+      display:inline-flex; align-items:center; gap:8px;
+      user-select:none;
+    }
+    .btn.primary{background:var(--accent); color:#fff; border-color:transparent}
+    .btn.good{background:var(--accent2); color:#fff; border-color:transparent}
+    .btn.danger{background:var(--danger); color:#fff; border-color:transparent}
+    .btn:active{transform:translateY(1px)}
+    .pill{
+      padding:6px 10px; border:1px solid var(--line); border-radius:999px; font-size:12px; color:var(--muted);
+      background:#fff; white-space:nowrap;
+    }
+    .table-wrap{
+      margin-top:14px;
+      border:1px solid var(--line);
+      border-radius:16px;
+      overflow:hidden;
+      background:#fff;
+    }
+    table{width:100%; border-collapse:separate; border-spacing:0}
+    thead th{
+      position:sticky; top:0;
+      background:#fafafa;
+      border-bottom:1px solid var(--line);
+      font-size:12px; text-align:left; color:#374151;
+      padding:10px 10px;
+      z-index:1;
+      white-space:nowrap;
+    }
+    tbody td{
+      border-bottom:1px solid var(--line);
+      padding:10px 10px;
+      vertical-align:top;
+      font-size:13px;
+    }
+    tbody tr:hover{background:#f9fafb}
+    .num{font-variant-numeric: tabular-nums; text-align:right; white-space:nowrap}
+    .muted{color:var(--muted)}
+    .actions{display:flex; gap:8px; justify-content:flex-end}
+    .small{font-size:12px}
+    .chk{width:16px; height:16px}
+    .toolbar{display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:10px}
+    .right{margin-left:auto}
+    .hide-sm{display:table-cell}
+    @media (max-width:760px){
+      .hide-sm{display:none}
+      thead th{top:0}
+    }
+    /* modal */
+    .backdrop{
+      position:fixed; inset:0; background:rgba(0,0,0,.35); display:none; align-items:center; justify-content:center;
+      padding:18px; z-index:20;
+    }
+    .modal{
+      width:min(720px, 100%);
+      background:#fff; border-radius:18px; border:1px solid var(--line);
+      box-shadow: 0 20px 60px rgba(0,0,0,.25);
+      padding:16px;
+    }
+    .modal h2{font-size:16px; margin:0}
+    .grid{
+      display:grid; grid-template-columns: 1fr 1fr;
+      gap:10px; margin-top:12px;
+    }
+    .kv{
+      border:1px solid var(--line); border-radius:14px; padding:10px;
+      background:#fff;
+    }
+    .kv .k{font-size:11px; color:var(--muted)}
+    .kv .v{font-size:13px; margin-top:2px; word-break:break-word}
+    @media (max-width:680px){ .grid{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <div>
+          <h1>Birim Fiyat Arama</h1>
+          <div class="sub">Excel'den çıkarılmış 377 kalem • Arama + filtre + CSV export • GitHub Pages'de çalışır</div>
+        </div>
+        <div class="row">
+          <span id="countPill" class="pill">Yükleniyor…</span>
+          <button class="btn" id="resetBtn" title="Filtreleri sıfırla">Sıfırla</button>
+        </div>
+      </header>
+
+      <div class="row">
+        <div class="grow">
+          <input id="q" type="search" placeholder="Ara: ART, açıklama, seri, kategori, UM… (ör: A3.1, béton, terrassement)" />
+        </div>
+        <div style="flex:1 1 200px;">
+          <select id="series"></select>
+        </div>
+        <div style="flex:1 1 200px;">
+          <select id="category"></select>
+        </div>
+        <div style="flex:0 0 140px;">
+          <select id="um"></select>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <div class="row">
+          <select id="sort" style="min-width:220px;">
+            <option value="art_asc">Sırala: ART (A→Z)</option>
+            <option value="art_desc">Sırala: ART (Z→A)</option>
+            <option value="dzd_desc">Sırala: DZD (Büyük→Küçük)</option>
+            <option value="dzd_asc">Sırala: DZD (Küçük→Büyük)</option>
+            <option value="euro_desc">Sırala: Euro (Büyük→Küçük)</option>
+            <option value="euro_asc">Sırala: Euro (Küçük→Büyük)</option>
+          </select>
+        </div>
+
+        <div class="row right">
+          <button class="btn good" id="exportBtn" title="Seçilenleri CSV indir">CSV Export</button>
+          <button class="btn danger" id="clearSelBtn" title="Seçimleri temizle">Seçimi temizle</button>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th style="width:44px" title="Seç">✓</th>
+              <th style="width:110px">ART</th>
+              <th>Açıklama</th>
+              <th class="hide-sm">Seri</th>
+              <th class="hide-sm">Kategori</th>
+              <th style="width:70px">UM</th>
+              <th style="width:130px" class="num">DZD</th>
+              <th style="width:110px" class="num">Euro</th>
+              <th style="width:130px" class="num hide-sm">DZDéqv</th>
+              <th style="width:170px"></th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+            <tr><td colspan="10" class="muted">Yükleniyor…</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="sub" style="margin-top:10px">
+        İpucu: Bir satıra tıklayınca detay ekranı açılır. “Kopyala” ile kalemi panoya alabilirsin.
+      </div>
+    </div>
+  </div>
+
+  <!-- modal -->
+  <div class="backdrop" id="backdrop" role="dialog" aria-modal="true">
+    <div class="modal">
+      <div class="row" style="justify-content:space-between; align-items:flex-start">
+        <div>
+          <h2 id="mTitle">Detay</h2>
+          <div class="sub" id="mSub"></div>
+        </div>
+        <div class="row">
+          <button class="btn" id="copyBtn">Kopyala</button>
+          <button class="btn primary" id="closeBtn">Kapat</button>
+        </div>
+      </div>
+      <div class="grid" id="mGrid"></div>
+    </div>
+  </div>
+
+<script>
+  const $ = (id)=>document.getElementById(id);
+
+  // diacritics-insensitive search
+  const norm = (s)=> (s ?? "").toString()
+    .normalize("NFD").replace(/\p{Diacritic}/gu,"")
+    .toLowerCase().trim();
+
+  const money = (v)=> (v === null || v === undefined || Number.isNaN(v)) ? "" :
+    new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 3 }).format(v);
+
+  let ALL = [];
+  let VIEW = [];
+  const selected = new Set();
+
+  function uniq(arr){
+    return Array.from(new Set(arr.filter(x=>x && x.toString().trim() !== ""))).sort((a,b)=>a.localeCompare(b,"fr"));
+  }
+
+  function setOptions(selectEl, values, labelAll){
+    selectEl.innerHTML = "";
+    const opt0 = document.createElement("option");
+    opt0.value = "";
+    opt0.textContent = labelAll;
+    selectEl.appendChild(opt0);
+    values.forEach(v=>{
+      const o=document.createElement("option");
+      o.value=v; o.textContent=v;
+      selectEl.appendChild(o);
+    });
+  }
+
+  function apply(){
+    const q = norm($("q").value);
+    const series = $("series").value;
+    const category = $("category").value;
+    const um = $("um").value;
+    const sort = $("sort").value;
+
+    VIEW = ALL.filter(r=>{
+      if(series && r.series !== series) return false;
+      if(category && r.category !== category) return false;
+      if(um && r.um !== um) return false;
+
+      if(!q) return true;
+      const hay = norm([r.art, r.description, r.um, r.series, r.category].join(" "));
+      return hay.includes(q);
+    });
+
+    // sort
+    const byNum = (k, dir)=>{
+      VIEW.sort((a,b)=>{
+        const av = (a[k] ?? -Infinity);
+        const bv = (b[k] ?? -Infinity);
+        return dir*(av-bv);
+      });
+    };
+    if(sort==="art_asc") VIEW.sort((a,b)=>a.art.localeCompare(b.art,"fr",{numeric:true}));
+    if(sort==="art_desc") VIEW.sort((a,b)=>b.art.localeCompare(a.art,"fr",{numeric:true}));
+    if(sort==="dzd_desc") byNum("dzd",-1);
+    if(sort==="dzd_asc") byNum("dzd",+1);
+    if(sort==="euro_desc") byNum("euro",-1);
+    if(sort==="euro_asc") byNum("euro",+1);
+
+    render();
+    $("countPill").textContent = `${VIEW.length} / ${ALL.length} sonuç • Seçili: ${selected.size}`;
+  }
+
+  function escapeHtml(s){
+    return (s??"").toString()
+      .replaceAll("&","&amp;").replaceAll("<","&lt;")
+      .replaceAll(">","&gt;").replaceAll("\"","&quot;")
+      .replaceAll("'","&#039;");
+  }
+
+  function render(){
+    const tb = $("tbody");
+    if(VIEW.length===0){
+      tb.innerHTML = `<tr><td colspan="10" class="muted">Sonuç yok. Filtreleri sıfırla veya arama kelimesini değiştir.</td></tr>`;
+      return;
+    }
+    const rows = VIEW.slice(0, 500).map(r=>{
+      const isSel = selected.has(r.art);
+      const desc = escapeHtml(r.description);
+      const series = escapeHtml(r.series ?? "");
+      const cat = escapeHtml(r.category ?? "");
+      const um = escapeHtml(r.um ?? "");
+      const dzd = money(r.dzd);
+      const euro = money(r.euro);
+      const eqv = money(r.dzd_eqv);
+
+      return `
+        <tr data-art="${escapeHtml(r.art)}" class="r">
+          <td><input class="chk" type="checkbox" data-sel="${escapeHtml(r.art)}" ${isSel?"checked":""}></td>
+          <td><b>${escapeHtml(r.art)}</b></td>
+          <td>${desc}</td>
+          <td class="hide-sm"><span class="small">${series}</span></td>
+          <td class="hide-sm"><span class="small">${cat}</span></td>
+          <td>${um}</td>
+          <td class="num">${dzd}</td>
+          <td class="num">${euro}</td>
+          <td class="num hide-sm">${eqv}</td>
+          <td>
+            <div class="actions">
+              <button class="btn" data-copy="${escapeHtml(r.art)}">Kopyala</button>
+              <button class="btn primary" data-open="${escapeHtml(r.art)}">Detay</button>
+            </div>
+          </td>
+        </tr>
+      `;
+    }).join("");
+    tb.innerHTML = rows;
+  }
+
+  function getByArt(art){ return ALL.find(r=>r.art===art); }
+
+  async function copyText(t){
+    try{ await navigator.clipboard.writeText(t); }
+    catch(e){
+      const ta=document.createElement("textarea");
+      ta.value=t; document.body.appendChild(ta); ta.select();
+      document.execCommand("copy"); ta.remove();
+    }
+  }
+
+  function openModal(r){
+    $("mTitle").textContent = `${r.art} • ${r.um || ""}`.trim();
+    $("mSub").textContent = `${r.series || ""}${r.category ? " • " + r.category : ""}`;
+
+    const items = [
+      ["ART", r.art],
+      ["Açıklama", r.description],
+      ["UM", r.um],
+      ["DZD", money(r.dzd)],
+      ["Euro", money(r.euro)],
+      ["DZDéqv", money(r.dzd_eqv)],
+      ["Seri", r.series],
+      ["Kategori", r.category ?? ""],
+    ];
+
+    $("mGrid").innerHTML = items.map(([k,v])=>`
+      <div class="kv">
+        <div class="k">${escapeHtml(k)}</div>
+        <div class="v">${escapeHtml(v ?? "")}</div>
+      </div>
+    `).join("");
+
+    $("backdrop").style.display="flex";
+    $("copyBtn").onclick = async ()=>{
+      const txt = `${r.art} | ${r.description} | UM:${r.um} | DZD:${r.dzd ?? ""} | Euro:${r.euro ?? ""} | DZDéqv:${r.dzd_eqv ?? ""}\n${r.series || ""}${r.category ? " / " + r.category : ""}`;
+      await copyText(txt);
+      $("copyBtn").textContent = "Kopyalandı ✓";
+      setTimeout(()=> $("copyBtn").textContent="Kopyala", 900);
+    };
+  }
+
+  function closeModal(){ $("backdrop").style.display="none"; }
+
+  function toCSV(rows){
+    const head = ["ART","DESCRIPTION","UM","DZD","Euro","DZDeqv","SERIES","CATEGORY"];
+    const esc = (s)=>{
+      const v = (s ?? "").toString();
+      if(/[",\n]/.test(v)) return `"${v.replaceAll('"','""')}"`;
+      return v;
+    };
+    const lines = [head.join(",")].concat(rows.map(r=>[
+      r.art, r.description, r.um, r.dzd ?? "", r.euro ?? "", r.dzd_eqv ?? "", r.series ?? "", r.category ?? ""
+    ].map(esc).join(",")));
+    return lines.join("\n");
+  }
+
+  function download(filename, content, mime){
+    const blob = new Blob([content], {type: mime});
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(blob);
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(()=>URL.revokeObjectURL(a.href), 1000);
+  }
+
+  async function init(){
+    const res = await fetch("./pricing.json", {cache:"no-store"});
+    ALL = await res.json();
+
+    setOptions($("series"), uniq(ALL.map(r=>r.series)), "Seri: Hepsi");
+    setOptions($("category"), uniq(ALL.map(r=>r.category)), "Kategori: Hepsi");
+    setOptions($("um"), uniq(ALL.map(r=>r.um)), "UM: Hepsi");
+
+    ["q","series","category","um","sort"].forEach(id=>{
+      $(id).addEventListener("input", apply);
+      $(id).addEventListener("change", apply);
+    });
+
+    $("resetBtn").onclick = ()=>{
+      $("q").value=""; $("series").value=""; $("category").value=""; $("um").value="";
+      $("sort").value="art_asc";
+      apply();
+    };
+
+    $("clearSelBtn").onclick = ()=>{ selected.clear(); apply(); };
+
+    $("exportBtn").onclick = ()=>{
+      const rows = ALL.filter(r=>selected.has(r.art));
+      if(rows.length===0){
+        alert("Önce en az 1 kalem seç (soldaki checkbox).");
+        return;
+      }
+      const csv = toCSV(rows);
+      download("selected_pricing.csv", csv, "text/csv;charset=utf-8");
+    };
+
+    $("tbody").addEventListener("click", async (ev)=>{
+      const t = ev.target;
+
+      // checkbox
+      if(t && t.matches('input[type="checkbox"][data-sel]')){
+        const art = t.getAttribute("data-sel");
+        if(t.checked) selected.add(art); else selected.delete(art);
+        $("countPill").textContent = `${VIEW.length} / ${ALL.length} sonuç • Seçili: ${selected.size}`;
+        return;
+      }
+
+      // buttons
+      if(t && t.matches('button[data-copy]')){
+        const art = t.getAttribute("data-copy");
+        const r = getByArt(art);
+        if(!r) return;
+        const txt = `${r.art} | ${r.description} | UM:${r.um} | DZD:${r.dzd ?? ""} | Euro:${r.euro ?? ""} | DZDéqv:${r.dzd_eqv ?? ""}`;
+        await copyText(txt);
+        t.textContent="Kopyalandı ✓";
+        setTimeout(()=>t.textContent="Kopyala", 900);
+        return;
+      }
+      if(t && t.matches('button[data-open]')){
+        const art = t.getAttribute("data-open");
+        const r = getByArt(art);
+        if(r) openModal(r);
+        return;
+      }
+
+      // row click -> modal
+      const tr = t.closest("tr[data-art]");
+      if(tr){
+        const art = tr.getAttribute("data-art");
+        const r = getByArt(art);
+        if(r) openModal(r);
+      }
+    });
+
+    $("closeBtn").onclick = closeModal;
+    $("backdrop").addEventListener("click", (e)=>{ if(e.target.id==="backdrop") closeModal(); });
+    window.addEventListener("keydown", (e)=>{ if(e.key==="Escape") closeModal(); });
+
+    apply();
+  }
+
+  init().catch(err=>{
+    console.error(err);
+    $("tbody").innerHTML = `<tr><td colspan="10" class="muted">Hata: veri yüklenemedi. pricing.json aynı klasörde mi? (Console'a bak)</td></tr>`;
+    $("countPill").textContent = "Hata";
+  });
+</script>
+</body>
+</html>

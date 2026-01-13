@@ -1,0 +1,3772 @@
+[
+  {
+    "art": "A1",
+    "description": "Installation et repliement du chantier",
+    "um": "Ft",
+    "dzd": 1041277260.86,
+    "euro": 4972851.8,
+    "dzd_eqv": 1550000000.0,
+    "series": "SÉRIE A. INSTALLATIONS ET LOGISTIQUES DU CHANTIER",
+    "category": null
+  },
+  {
+    "art": "A2.1",
+    "description": "Laboratoire de chantier",
+    "um": "Ft",
+    "dzd": 41644039.15,
+    "euro": 570439.5,
+    "dzd_eqv": 100000000.0,
+    "series": "SÉRIE A. INSTALLATIONS ET LOGISTIQUES DU CHANTIER",
+    "category": "CONTR.LE DES TRAVAUX"
+  },
+  {
+    "art": "A2.2",
+    "description": "Contrôle externe des travaux",
+    "um": "Ft",
+    "dzd": 33983960.76,
+    "euro": 400938.8,
+    "dzd_eqv": 75000000.0,
+    "series": "SÉRIE A. INSTALLATIONS ET LOGISTIQUES DU CHANTIER",
+    "category": "CONTR.LE DES TRAVAUX"
+  },
+  {
+    "art": "A3.1",
+    "description": "Études dexécution",
+    "um": "Ft",
+    "dzd": 212842500.0,
+    "euro": 2025000.0,
+    "dzd_eqv": 420000000.0,
+    "series": "SÉRIE A. INSTALLATIONS ET LOGISTIQUES DU CHANTIER",
+    "category": "ÉTUDES"
+  },
+  {
+    "art": "A3.2",
+    "description": "Contrôle externe des études",
+    "um": "Ft",
+    "dzd": 45999996.83,
+    "euro": 449657.9,
+    "dzd_eqv": 92000000.0,
+    "series": "SÉRIE A. INSTALLATIONS ET LOGISTIQUES DU CHANTIER",
+    "category": "ÉTUDES"
+  },
+  {
+    "art": "A3.3",
+    "description": "Dossier de récolement",
+    "um": "Ft",
+    "dzd": 33568500.0,
+    "euro": 405000.0,
+    "dzd_eqv": 75000000.0,
+    "series": "SÉRIE A. INSTALLATIONS ET LOGISTIQUES DU CHANTIER",
+    "category": "ÉTUDES"
+  },
+  {
+    "art": "A3.4",
+    "description": "Étude des méthodes",
+    "um": "Ft",
+    "dzd": 7500069.87,
+    "euro": 73313.1,
+    "dzd_eqv": 15000000.0,
+    "series": "SÉRIE A. INSTALLATIONS ET LOGISTIQUES DU CHANTIER",
+    "category": "ÉTUDES"
+  },
+  {
+    "art": "A3.5",
+    "description": "Reconnaissances géotechniques, géologiques et hydrogéologiques",
+    "um": "Ft",
+    "dzd": 40209555.68,
+    "euro": 388958.4,
+    "dzd_eqv": 80000000.0,
+    "series": "SÉRIE A. INSTALLATIONS ET LOGISTIQUES DU CHANTIER",
+    "category": "ÉTUDES"
+  },
+  {
+    "art": "A4.1",
+    "description": "Sécurité passive",
+    "um": "Ft",
+    "dzd": 200000000.0,
+    "euro": 0.0,
+    "dzd_eqv": 200000000.0,
+    "series": "SÉRIE A. INSTALLATIONS ET LOGISTIQUES DU CHANTIER",
+    "category": "SÉCURITÉ DU CHANTIER"
+  },
+  {
+    "art": "A4.2",
+    "description": "Sécurité active",
+    "um": "Ft",
+    "dzd": 400000000.0,
+    "euro": 0.0,
+    "dzd_eqv": 400000000.0,
+    "series": "SÉRIE A. INSTALLATIONS ET LOGISTIQUES DU CHANTIER",
+    "category": "SÉCURITÉ DU CHANTIER"
+  },
+  {
+    "art": "A5",
+    "description": "Panneau d'identification de l'opération de surface de 6,00 m2",
+    "um": "Unité",
+    "dzd": 1775000.0,
+    "euro": 0.0,
+    "dzd_eqv": 1775000.0,
+    "series": "SÉRIE A. INSTALLATIONS ET LOGISTIQUES DU CHANTIER",
+    "category": "SÉCURITÉ DU CHANTIER"
+  },
+  {
+    "art": "B1.1",
+    "description": "Débroussaillage, évacuation de blocs rocheux et nettoyage demprise",
+    "um": "Ha",
+    "dzd": 619820.41,
+    "euro": 2543.3,
+    "dzd_eqv": 880000.0,
+    "series": "SÉRIE B. TRAVAUX PRÉPARATOIRES",
+    "category": "TRAVAUX PRÉPARATOIRES"
+  },
+  {
+    "art": "B1.2",
+    "description": "Abattage, arrachage et dessouchage des arbres singuliers et mise en stock",
+    "um": "U",
+    "dzd": 1600.0,
+    "euro": 0.0,
+    "dzd_eqv": 1600.0,
+    "series": "SÉRIE B. TRAVAUX PRÉPARATOIRES",
+    "category": "TRAVAUX PRÉPARATOIRES"
+  },
+  {
+    "art": "B1.3",
+    "description": "Dépose soignée des structures métalliques ou en bois",
+    "um": "Tonne",
+    "dzd": 944.25,
+    "euro": 2.5,
+    "dzd_eqv": 1200.0,
+    "series": "SÉRIE B. TRAVAUX PRÉPARATOIRES",
+    "category": "TRAVAUX PRÉPARATOIRES"
+  },
+  {
+    "art": "B2.1",
+    "description": "Démolition douvrages divers",
+    "um": "m3",
+    "dzd": 1335.05,
+    "euro": 6.5,
+    "dzd_eqv": 2000.0,
+    "series": "SÉRIE B. TRAVAUX PRÉPARATOIRES",
+    "category": "DÉMOLITION"
+  },
+  {
+    "art": "B2.2",
+    "description": "Démolition douvrages en béton armé",
+    "um": "m3",
+    "dzd": 1620.22,
+    "euro": 8.6,
+    "dzd_eqv": 2500.0,
+    "series": "SÉRIE B. TRAVAUX PRÉPARATOIRES",
+    "category": "DÉMOLITION"
+  },
+  {
+    "art": "B2.3",
+    "description": "Démolition de chaussées, trottoirs et accotements revêtus",
+    "um": "m3",
+    "dzd": 207.7,
+    "euro": 1.0,
+    "dzd_eqv": 310.0,
+    "series": "SÉRIE B. TRAVAUX PRÉPARATOIRES",
+    "category": "DÉMOLITION"
+  },
+  {
+    "art": "B3.1",
+    "description": "Rabotage pour une épaisseur inférieure ou égale à 100 mm",
+    "um": "m2",
+    "dzd": 88.85,
+    "euro": 0.5,
+    "dzd_eqv": 140.0,
+    "series": "SÉRIE B. TRAVAUX PRÉPARATOIRES",
+    "category": "RABOTAGE DE CHAUSSÉES"
+  },
+  {
+    "art": "B3.2",
+    "description": "Rabotage pour une épaisseur entre 100 et 200 mm",
+    "um": "m2",
+    "dzd": 98.62,
+    "euro": 0.6,
+    "dzd_eqv": 160.0,
+    "series": "SÉRIE B. TRAVAUX PRÉPARATOIRES",
+    "category": "RABOTAGE DE CHAUSSÉES"
+  },
+  {
+    "art": "B4",
+    "description": "Scarification de chaussée et compactage",
+    "um": "m2",
+    "dzd": 28.16,
+    "euro": 0.8,
+    "dzd_eqv": 110.0,
+    "series": "SÉRIE B. TRAVAUX PRÉPARATOIRES",
+    "category": "RABOTAGE DE CHAUSSÉES"
+  },
+  {
+    "art": "C1.1",
+    "description": "Décapage de terre végétale",
+    "um": "m3",
+    "dzd": 128.62,
+    "euro": 0.6,
+    "dzd_eqv": 190.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "TERRE VÉGÉTALE"
+  },
+  {
+    "art": "C1.2",
+    "description": "Reprise sur stock et mise en ouvre de terre végétale",
+    "um": "m3",
+    "dzd": 179.08,
+    "euro": 0.4,
+    "dzd_eqv": 220.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "TERRE VÉGÉTALE"
+  },
+  {
+    "art": "C2.2",
+    "description": "Purges",
+    "um": "m3",
+    "dzd": 2200.0,
+    "euro": 0.0,
+    "dzd_eqv": 2200.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "PRÉPARATION DE FOND DE FORME EN DÉBLAIS"
+  },
+  {
+    "art": "C3.1",
+    "description": "Déblai meuble mis en remblai",
+    "um": "m3",
+    "dzd": 257.24,
+    "euro": 1.2,
+    "dzd_eqv": 380.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "DÉBLAIS MIS EN REMBLAI"
+  },
+  {
+    "art": "C3.2",
+    "description": "Déblai semi-dur mis en remblai",
+    "um": "m3",
+    "dzd": 386.32,
+    "euro": 1.6,
+    "dzd_eqv": 550.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "DÉBLAIS MIS EN REMBLAI"
+  },
+  {
+    "art": "C3.3",
+    "description": "Déblai rocheux dur mis en remblai",
+    "um": "m3",
+    "dzd": 1308.96,
+    "euro": 4.8,
+    "dzd_eqv": 1800.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "DÉBLAIS MIS EN REMBLAI"
+  },
+  {
+    "art": "C4.1",
+    "description": "Déblai meuble mis en dépôt",
+    "um": "m3",
+    "dzd": 148.16,
+    "euro": 0.8,
+    "dzd_eqv": 230.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "DÉBLAI MIS EN DÉPOT"
+  },
+  {
+    "art": "C4.2",
+    "description": "Déblai semi-dur mis en dépôt",
+    "um": "m3",
+    "dzd": 307.7,
+    "euro": 1.0,
+    "dzd_eqv": 410.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "DÉBLAI MIS EN DÉPOT"
+  },
+  {
+    "art": "C4.3",
+    "description": "Déblai rocheux dur mis en dépôt",
+    "um": "m3",
+    "dzd": 893.1,
+    "euro": 3.0,
+    "dzd_eqv": 1200.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "DÉBLAI MIS EN DÉPOT"
+  },
+  {
+    "art": "C5.1",
+    "description": "Remblai en provenance d'emprunt",
+    "um": "m3",
+    "dzd": 555.63,
+    "euro": 1.9,
+    "dzd_eqv": 750.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "REMBLAIS"
+  },
+  {
+    "art": "C6.1",
+    "description": "Assise drainante",
+    "um": "m3",
+    "dzd": 1166.55,
+    "euro": 1.5,
+    "dzd_eqv": 1320.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "ASSISE DRAINANTE"
+  },
+  {
+    "art": "C7.1",
+    "description": "Géotextile de renforcement",
+    "um": "m2",
+    "dzd": 290.8,
+    "euro": 4.0,
+    "dzd_eqv": 700.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "GÉOTEXTILES ET GÉOGRILLES"
+  },
+  {
+    "art": "C7.2",
+    "description": "Géotextile anti-contimant",
+    "um": "m2",
+    "dzd": 258.27,
+    "euro": 5.1,
+    "dzd_eqv": 779.9999999999999,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "GÉOTEXTILES ET GÉOGRILLES"
+  },
+  {
+    "art": "C7.3",
+    "description": "Géogrille",
+    "um": "m2",
+    "dzd": 418.04,
+    "euro": 5.2,
+    "dzd_eqv": 950.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "GÉOTEXTILES ET GÉOGRILLES"
+  },
+  {
+    "art": "C8.1",
+    "description": "Arrondi de crête de talus en déblai",
+    "um": "ml",
+    "dzd": 317.01,
+    "euro": 1.3,
+    "dzd_eqv": 450.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "MISE EN FORME DES TALUS"
+  },
+  {
+    "art": "C9.1",
+    "description": "Couche de forme, matériaux fournis par lEntreprise",
+    "um": "m3",
+    "dzd": 1346.55,
+    "euro": 1.5,
+    "dzd_eqv": 1500.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "COUCHE DE FORME"
+  },
+  {
+    "art": "C10.1",
+    "description": "Transport de matériaux sur une distance inférieure à 30 kilomètres",
+    "um": "M3 x KM",
+    "dzd": 12.5,
+    "euro": 0.0,
+    "dzd_eqv": 12.5,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "TRANSPORT DE MATÉRIAUX"
+  },
+  {
+    "art": "C10.2",
+    "description": "Transport de matériaux sur une distance supérieure à 30 kilomètres",
+    "um": "M3 x KM",
+    "dzd": 11.0,
+    "euro": 0.0,
+    "dzd_eqv": 11.0,
+    "series": "SÉRIE C. TERRASSEMENT ET COUCHE DE FORME",
+    "category": "TRANSPORT DE MATÉRIAUX"
+  },
+  {
+    "art": "D1.1",
+    "description": "Fossé trapézoïdale non revêtu de type A",
+    "um": "ml",
+    "dzd": 495.86,
+    "euro": 1.8,
+    "dzd_eqv": 680.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "FOSSÉS TRAPÉZOÏDAUX"
+  },
+  {
+    "art": "D1.2",
+    "description": "Fossé trapézoïdale non revêtu de type B",
+    "um": "ml",
+    "dzd": 594.94,
+    "euro": 2.2,
+    "dzd_eqv": 820.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "FOSSÉS TRAPÉZOÏDAUX"
+  },
+  {
+    "art": "D1.3",
+    "description": "Fossé trapézoïdale non revêtu de type C",
+    "um": "ml",
+    "dzd": 897.18,
+    "euro": 3.4,
+    "dzd_eqv": 1245.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "FOSSÉS TRAPÉZOÏDAUX"
+  },
+  {
+    "art": "D1.4",
+    "description": "Végétalisation de fossés",
+    "um": "ml",
+    "dzd": 874.94,
+    "euro": 2.2,
+    "dzd_eqv": 1100.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "FOSSÉS TRAPÉZOÏDAUX"
+  },
+  {
+    "art": "D2.1",
+    "description": "Bétonnage de fossé de type A",
+    "um": "ml",
+    "dzd": 4448.37,
+    "euro": 18.1,
+    "dzd_eqv": 6300.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "BÉTONNAGE DES FOSSÉS TRAPÉZOÏDAUX"
+  },
+  {
+    "art": "D2.2",
+    "description": "Bétonnage de fossé de type B",
+    "um": "ml",
+    "dzd": 5662.5,
+    "euro": 25.0,
+    "dzd_eqv": 8220.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "BÉTONNAGE DES FOSSÉS TRAPÉZOÏDAUX"
+  },
+  {
+    "art": "D2.3",
+    "description": "Bétonnage de fossé de type C",
+    "um": "ml",
+    "dzd": 6316.17,
+    "euro": 32.1,
+    "dzd_eqv": 9600.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "BÉTONNAGE DES FOSSÉS TRAPÉZOÏDAUX"
+  },
+  {
+    "art": "D3.1",
+    "description": "Cunettes triangulaires dissymétriques étanches végétalisées",
+    "um": "ml",
+    "dzd": 3402.4,
+    "euro": 12.0,
+    "dzd_eqv": 4630.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CUNETTES"
+  },
+  {
+    "art": "D3.2",
+    "description": "Cunettes triangulaires dissymétriques en béton extrudé",
+    "um": "ml",
+    "dzd": 4304.81,
+    "euro": 15.3,
+    "dzd_eqv": 5870.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CUNETTES"
+  },
+  {
+    "art": "D3.3",
+    "description": "Cunettes triangulaires symétriques en béton extrudé",
+    "um": "ml",
+    "dzd": 4829.18,
+    "euro": 13.4,
+    "dzd_eqv": 6200.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CUNETTES"
+  },
+  {
+    "art": "D4.1",
+    "description": "Descentes deau en escalier de type A",
+    "um": "ml",
+    "dzd": 2912.86,
+    "euro": 11.8,
+    "dzd_eqv": 4120.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "DESCENTES DEAU EN ESCALIER"
+  },
+  {
+    "art": "D4.2",
+    "description": "Descentes deau en escalier de type B",
+    "um": "ml",
+    "dzd": 3357.57,
+    "euro": 14.1,
+    "dzd_eqv": 4800.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "DESCENTES DEAU EN ESCALIER"
+  },
+  {
+    "art": "D4.3",
+    "description": "Descentes deau en escalier de type C",
+    "um": "ml",
+    "dzd": 3634.81,
+    "euro": 15.3,
+    "dzd_eqv": 5200.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "DESCENTES DEAU EN ESCALIER"
+  },
+  {
+    "art": "D4.4",
+    "description": "Descentes deau en escalier de type D",
+    "um": "ml",
+    "dzd": 4119.98,
+    "euro": 17.4,
+    "dzd_eqv": 5899.999999999999,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "DESCENTES DEAU EN ESCALIER"
+  },
+  {
+    "art": "D5.1",
+    "description": "Descentes deau en tuile de type A",
+    "um": "ml",
+    "dzd": 2200.0,
+    "euro": 0.0,
+    "dzd_eqv": 2200.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "DESCENTES DEAU EN TUILE"
+  },
+  {
+    "art": "D5.2",
+    "description": "Descentes deau en tuile de type B",
+    "um": "ml",
+    "dzd": 3520.0,
+    "euro": 0.0,
+    "dzd_eqv": 3520.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "DESCENTES DEAU EN TUILE"
+  },
+  {
+    "art": "D5.3",
+    "description": "Descentes deau en tuile de type C",
+    "um": "ml",
+    "dzd": 4200.0,
+    "euro": 0.0,
+    "dzd_eqv": 4200.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "DESCENTES DEAU EN TUILE"
+  },
+  {
+    "art": "D6.1",
+    "description": "Caniveau en U en béton extrudé de 0,30 x0,40",
+    "um": "ml",
+    "dzd": 4800.0,
+    "euro": 0.0,
+    "dzd_eqv": 4800.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CANIVEAUX EN U (RECTANGULAIRE) EN BÉTON EXTRUDÉ LE LONG DE LA PLATEFORME"
+  },
+  {
+    "art": "D6.2",
+    "description": "Caniveau en U en béton extrudé de 0,40 x 0,50",
+    "um": "ml",
+    "dzd": 5800.0,
+    "euro": 0.0,
+    "dzd_eqv": 5800.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CANIVEAUX EN U (RECTANGULAIRE) EN BÉTON EXTRUDÉ LE LONG DE LA PLATEFORME"
+  },
+  {
+    "art": "D6.3",
+    "description": "Caniveau en U en béton extrudé de 0,45 x 0,55",
+    "um": "ml",
+    "dzd": 6300.0,
+    "euro": 0.0,
+    "dzd_eqv": 6300.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CANIVEAUX EN U (RECTANGULAIRE) EN BÉTON EXTRUDÉ LE LONG DE LA PLATEFORME"
+  },
+  {
+    "art": "D7.1",
+    "description": "Caniveau à fente en béton extrudé diamètre 300 mm",
+    "um": "ml",
+    "dzd": 22200.0,
+    "euro": 0.0,
+    "dzd_eqv": 22200.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CANIVEAUX À FENTE EN BÉTON EXTRUDÉ"
+  },
+  {
+    "art": "D7.2",
+    "description": "Caniveau à fente en béton extrudé diamètre 400 mm",
+    "um": "ml",
+    "dzd": 26600.0,
+    "euro": 0.0,
+    "dzd_eqv": 26600.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CANIVEAUX À FENTE EN BÉTON EXTRUDÉ"
+  },
+  {
+    "art": "D7.3",
+    "description": "Caniveau à fente en béton extrudé diamètre 500 mm",
+    "um": "ml",
+    "dzd": 29300.0,
+    "euro": 0.0,
+    "dzd_eqv": 29300.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CANIVEAUX À FENTE EN BÉTON EXTRUDÉ"
+  },
+  {
+    "art": "D7.4",
+    "description": "Renforcement des caniveaux à fente sous circulation lourde",
+    "um": "ml",
+    "dzd": 11191.83,
+    "euro": 7.9,
+    "dzd_eqv": 12000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CANIVEAUX À FENTE EN BÉTON EXTRUDÉ"
+  },
+  {
+    "art": "D8.1",
+    "description": "Demi-buse dun diamètre de 300 mm",
+    "um": "ml",
+    "dzd": 4400.0,
+    "euro": 0.0,
+    "dzd_eqv": 4400.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CANIVEAUX DEMI-BUSE"
+  },
+  {
+    "art": "D8.2",
+    "description": "Demi-buse dun diamètre de 400 mm",
+    "um": "ml",
+    "dzd": 5700.0,
+    "euro": 0.0,
+    "dzd_eqv": 5700.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CANIVEAUX DEMI-BUSE"
+  },
+  {
+    "art": "D8.3",
+    "description": "Demi-buse dun diamètre de 500 mm",
+    "um": "ml",
+    "dzd": 7800.0,
+    "euro": 0.0,
+    "dzd_eqv": 7800.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CANIVEAUX DEMI-BUSE"
+  },
+  {
+    "art": "D9.1",
+    "description": "Déblai pour tranchées de profondeur entre 0 et 2 m",
+    "um": "m3",
+    "dzd": 217.93,
+    "euro": 0.9,
+    "dzd_eqv": 310.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "DÉBLAI POUR TRANCHÉES"
+  },
+  {
+    "art": "D9.2",
+    "description": "Déblai pour tranchées de profondeur entre 2 à 4 m",
+    "um": "m3",
+    "dzd": 277.24,
+    "euro": 1.2,
+    "dzd_eqv": 400.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "DÉBLAI POUR TRANCHÉES"
+  },
+  {
+    "art": "D9.3",
+    "description": "Déblai pour tranchées de profondeur entre 4 et 6 m",
+    "um": "m3",
+    "dzd": 326.55,
+    "euro": 1.5,
+    "dzd_eqv": 480.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "DÉBLAI POUR TRANCHÉES"
+  },
+  {
+    "art": "D9.4",
+    "description": "Plus-value pour terrain rocheux",
+    "um": "m3",
+    "dzd": 1500.0,
+    "euro": 0.0,
+    "dzd_eqv": 1500.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "DÉBLAI POUR TRANCHÉES"
+  },
+  {
+    "art": "D10.1",
+    "description": "Lit de pose en sable",
+    "um": "m3",
+    "dzd": 1455.51,
+    "euro": 6.3,
+    "dzd_eqv": 2100.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "LIT DE POSE"
+  },
+  {
+    "art": "D10.2",
+    "description": "Lit de pose en béton",
+    "um": "m3",
+    "dzd": 5962.17,
+    "euro": 12.1,
+    "dzd_eqv": 7200.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "LIT DE POSE"
+  },
+  {
+    "art": "D11.1",
+    "description": "Enrobage des tuyaux en grave naturelle",
+    "um": "m3",
+    "dzd": 1437.35,
+    "euro": 5.5,
+    "dzd_eqv": 2000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "ENROBAGE DES TUYAUX"
+  },
+  {
+    "art": "D11.2",
+    "description": "Enrobage des tuyaux en béton",
+    "um": "m3",
+    "dzd": 5593.89,
+    "euro": 15.7,
+    "dzd_eqv": 7200.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "ENROBAGE DES TUYAUX"
+  },
+  {
+    "art": "D11.3",
+    "description": "Enrobage des tuyaux en matériaux drainants pour tuyaux perforés",
+    "um": "m3",
+    "dzd": 1739.65,
+    "euro": 4.5,
+    "dzd_eqv": 2200.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "ENROBAGE DES TUYAUX"
+  },
+  {
+    "art": "D12.1",
+    "description": "Diamètre de 400 mm",
+    "um": "ml",
+    "dzd": 7769.31,
+    "euro": 0.3,
+    "dzd_eqv": 7800.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "TUYAU CIRCULAIRE EN BÉTON ARMÉ DE SÉRIE 90 A"
+  },
+  {
+    "art": "D12.2",
+    "description": "Diamètre de 600 mm",
+    "um": "ml",
+    "dzd": 9369.31,
+    "euro": 0.3,
+    "dzd_eqv": 9400.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "TUYAU CIRCULAIRE EN BÉTON ARMÉ DE SÉRIE 90 A"
+  },
+  {
+    "art": "D13.1",
+    "description": "Diamètre de 800 mm",
+    "um": "ml",
+    "dzd": 15498.73,
+    "euro": 4.9,
+    "dzd_eqv": 16000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "TUYAU CIRCULAIRE EN BÉTON ARMÉ DE SÉRIE 135 A"
+  },
+  {
+    "art": "D13.2",
+    "description": "Diamètre de 1000 mm",
+    "um": "ml",
+    "dzd": 21631.72,
+    "euro": 3.6,
+    "dzd_eqv": 22000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "TUYAU CIRCULAIRE EN BÉTON ARMÉ DE SÉRIE 135 A"
+  },
+  {
+    "art": "D13.3",
+    "description": "Diamètre de 1200 mm",
+    "um": "ml",
+    "dzd": 36375.97,
+    "euro": 6.1,
+    "dzd_eqv": 37000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "TUYAU CIRCULAIRE EN BÉTON ARMÉ DE SÉRIE 135 A"
+  },
+  {
+    "art": "D13.4",
+    "description": "Diamètre de 1500 mm",
+    "um": "ml",
+    "dzd": 50775.97,
+    "euro": 6.1,
+    "dzd_eqv": 51400.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "TUYAU CIRCULAIRE EN BÉTON ARMÉ DE SÉRIE 135 A"
+  },
+  {
+    "art": "D14.1",
+    "description": "Collecteur drainant dun diamètre de 150 mm",
+    "um": "ml",
+    "dzd": 2700.0,
+    "euro": 0.0,
+    "dzd_eqv": 2700.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "COLLECTEURS DRAINANTS"
+  },
+  {
+    "art": "D17.1",
+    "description": "Tuyau circulaire en PEHD dun diamètre de 75 mm",
+    "um": "ml",
+    "dzd": 1236.0,
+    "euro": 0.0,
+    "dzd_eqv": 1236.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "TUYAUX CIRCULAIRES EN PEHD"
+  },
+  {
+    "art": "D17.2",
+    "description": "Tuyau circulaire en PEHD dun diamètre de 90 mm",
+    "um": "ml",
+    "dzd": 1500.0,
+    "euro": 0.0,
+    "dzd_eqv": 1500.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "TUYAUX CIRCULAIRES EN PEHD"
+  },
+  {
+    "art": "D18.1",
+    "description": "Chambre de tirage K1C",
+    "um": "U",
+    "dzd": 112000.0,
+    "euro": 0.0,
+    "dzd_eqv": 112000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CHAMBRE DE TIRAGE"
+  },
+  {
+    "art": "D18.2",
+    "description": "Chambre de tirage K2C",
+    "um": "U",
+    "dzd": 125000.0,
+    "euro": 0.0,
+    "dzd_eqv": 125000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "CHAMBRE DE TIRAGE"
+  },
+  {
+    "art": "D19.1",
+    "description": "Profondeur inférieure à 2 mètres",
+    "um": "U",
+    "dzd": 120000.0,
+    "euro": 0.0,
+    "dzd_eqv": 120000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "REGARD DE VISITE ET DENTRETIEN CIRCULAIRE"
+  },
+  {
+    "art": "D20.1",
+    "description": "Puisard avec dimensions inférieures à 1000x1000x3500",
+    "um": "U",
+    "dzd": 150000.0,
+    "euro": 0.0,
+    "dzd_eqv": 150000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "PUISARDS RECTANGULAIRES"
+  },
+  {
+    "art": "D20.2",
+    "description": "Puisard avec dimensions inférieures à 1500x1300x3500",
+    "um": "U",
+    "dzd": 174000.0,
+    "euro": 0.0,
+    "dzd_eqv": 174000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "PUISARDS RECTANGULAIRES"
+  },
+  {
+    "art": "D20.3",
+    "description": "Puisard avec dimensions inférieures à 1500x1500x3500",
+    "um": "U",
+    "dzd": 188000.0,
+    "euro": 0.0,
+    "dzd_eqv": 188000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "PUISARDS RECTANGULAIRES"
+  },
+  {
+    "art": "D20.4",
+    "description": "Puisard avec dimensions inférieures à 1500x1800x3500",
+    "um": "U",
+    "dzd": 215000.0,
+    "euro": 0.0,
+    "dzd_eqv": 215000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "PUISARDS RECTANGULAIRES"
+  },
+  {
+    "art": "D20.5",
+    "description": "Puisard avec dimensions inférieures à 1500x2000x3500",
+    "um": "U",
+    "dzd": 220000.0,
+    "euro": 0.0,
+    "dzd_eqv": 220000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "PUISARDS RECTANGULAIRES"
+  },
+  {
+    "art": "D20.6",
+    "description": "Puisard avec dimensions inférieures à 1500x2500x3500",
+    "um": "U",
+    "dzd": 260000.0,
+    "euro": 0.0,
+    "dzd_eqv": 260000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "PUISARDS RECTANGULAIRES"
+  },
+  {
+    "art": "D21.1",
+    "description": "Grille davaloir carré de 700 x 700 mm, classe de résistance de 400 kN",
+    "um": "U",
+    "dzd": 32000.0,
+    "euro": 0.0,
+    "dzd_eqv": 32000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "COUVERCLE DE REGARD ET GRILLE DAVALOIR"
+  },
+  {
+    "art": "D21.2",
+    "description": "Grille davaloir rectangulaire de 250 x 400 mm, classe de résistance de 400 kN",
+    "um": "U",
+    "dzd": 26826.09,
+    "euro": 1.7,
+    "dzd_eqv": 27000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "COUVERCLE DE REGARD ET GRILLE DAVALOIR"
+  },
+  {
+    "art": "D21.3",
+    "description": "Caillebotis de 1 x 1 m, classe de résistance de 125 kN",
+    "um": "U",
+    "dzd": 5400.0,
+    "euro": 0.0,
+    "dzd_eqv": 5400.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "COUVERCLE DE REGARD ET GRILLE DAVALOIR"
+  },
+  {
+    "art": "D21.4",
+    "description": "Caillebotis de 1 x 2 m, classe de résistance de 125 kN",
+    "um": "U",
+    "dzd": 9200.0,
+    "euro": 0.0,
+    "dzd_eqv": 9200.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "COUVERCLE DE REGARD ET GRILLE DAVALOIR"
+  },
+  {
+    "art": "D22.1",
+    "description": "Têtes simples, murs en aile pour collecteur dun diamètre de 600 mm",
+    "um": "U",
+    "dzd": 60925.34,
+    "euro": 154.2,
+    "dzd_eqv": 76700.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "TÁTE DE BUSE SIMPLE, MURS EN AILE"
+  },
+  {
+    "art": "D22.2",
+    "description": "Têtes simples, murs en aile pour collecteur dun diamètre de 800 mm",
+    "um": "U",
+    "dzd": 68921.05,
+    "euro": 186.5,
+    "dzd_eqv": 88000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "TÁTE DE BUSE SIMPLE, MURS EN AILE"
+  },
+  {
+    "art": "D22.3",
+    "description": "Têtes simples, murs en aile pour collecteur dun diamètre de 1000  mm",
+    "um": "U",
+    "dzd": 76992.73,
+    "euro": 224.9,
+    "dzd_eqv": 100000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "TÁTE DE BUSE SIMPLE, MURS EN AILE"
+  },
+  {
+    "art": "D22.4",
+    "description": "Têtes simples, murs en aile pour collecteur dun diamètre de 1200  mm",
+    "um": "U",
+    "dzd": 90558.06,
+    "euro": 287.8,
+    "dzd_eqv": 120000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "TÁTE DE BUSE SIMPLE, MURS EN AILE"
+  },
+  {
+    "art": "D22.5",
+    "description": "Têtes simples, murs en aile pour collecteur dun diamètre de 1500 mm",
+    "um": "U",
+    "dzd": 125386.97,
+    "euro": 436.1,
+    "dzd_eqv": 170000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "TÁTE DE BUSE SIMPLE, MURS EN AILE"
+  },
+  {
+    "art": "D23.1",
+    "description": "Bourrelet en enrobé",
+    "um": "ml",
+    "dzd": 3000.0,
+    "euro": 0.0,
+    "dzd_eqv": 3000.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "BOURRELET"
+  },
+  {
+    "art": "D24.1",
+    "description": "Enrochement de type A (600 mm < blocomètrie < 1200 mm)",
+    "um": "m3",
+    "dzd": 1879.3,
+    "euro": 9.0,
+    "dzd_eqv": 2800.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "ENROCHEMENTS LIBRES"
+  },
+  {
+    "art": "D24.2",
+    "description": "Enrochement de type B (400 mm < blocomètrie < 800 mm)",
+    "um": "m3",
+    "dzd": 1879.3,
+    "euro": 9.0,
+    "dzd_eqv": 2800.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "ENROCHEMENTS LIBRES"
+  },
+  {
+    "art": "D24.3",
+    "description": "Enrochement de type C (200 mm < blocomètrie < 400 mm)",
+    "um": "m3",
+    "dzd": 1879.3,
+    "euro": 9.0,
+    "dzd_eqv": 2800.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "ENROCHEMENTS LIBRES"
+  },
+  {
+    "art": "D25.1",
+    "description": "Enrochements liés de type A (600 mm< Blocomètre < 1200 mm)",
+    "um": "m3",
+    "dzd": 2042.98,
+    "euro": 7.4,
+    "dzd_eqv": 2800.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "ENROCHEMENTS LIÉS"
+  },
+  {
+    "art": "D26.1",
+    "description": "Réalisation de barbacane",
+    "um": "ml",
+    "dzd": 1700.0,
+    "euro": 0.0,
+    "dzd_eqv": 1700.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "BARBACANES"
+  },
+  {
+    "art": "D27.1",
+    "description": "Déblais pour aménagement divers",
+    "um": "m3",
+    "dzd": 178.16,
+    "euro": 0.8,
+    "dzd_eqv": 260.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "OUVRAGES DIVERS EN BÉTON"
+  },
+  {
+    "art": "D27.2",
+    "description": "Béton pour ouvrages divers",
+    "um": "m3",
+    "dzd": 9553.28,
+    "euro": 46.4,
+    "dzd_eqv": 14300.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "OUVRAGES DIVERS EN BÉTON"
+  },
+  {
+    "art": "D27.3",
+    "description": "Coffrage pour ouvrages divers en béton",
+    "um": "m2",
+    "dzd": 920.22,
+    "euro": 8.6,
+    "dzd_eqv": 1800.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "OUVRAGES DIVERS EN BÉTON"
+  },
+  {
+    "art": "D27.4",
+    "description": "Ferraillage pour ouvrages divers en béton",
+    "um": "Kg",
+    "dzd": 65.08,
+    "euro": 0.4,
+    "dzd_eqv": 106.0,
+    "series": "SÉRIE D. ASSAINISSEMENT, RÉSEAUX, PROTECTIONS HYDRAULIQUES",
+    "category": "OUVRAGES DIVERS EN BÉTON"
+  },
+  {
+    "art": "E1.1",
+    "description": "Grave non traitée (GNT A 0/31.5)",
+    "um": "m3",
+    "dzd": 1922.64,
+    "euro": 3.2,
+    "dzd_eqv": 2250.0,
+    "series": "SÉRIE E. CHAUSSÉE",
+    "category": "GRAVE NON TRAITÉE"
+  },
+  {
+    "art": "E2.1",
+    "description": "Grave bitume GB 0/20",
+    "um": "Tonne",
+    "dzd": 3390.32,
+    "euro": 21.6,
+    "dzd_eqv": 5600.0,
+    "series": "SÉRIE E. CHAUSSÉE",
+    "category": "GRAVE BITUME (GB)"
+  },
+  {
+    "art": "E2.2",
+    "description": "Enrobés à module élevé (EME 2)",
+    "um": "Tonne",
+    "dzd": 4782.15,
+    "euro": 29.5,
+    "dzd_eqv": 7800.0,
+    "series": "SÉRIE E. CHAUSSÉE",
+    "category": "GRAVE BITUME (GB)"
+  },
+  {
+    "art": "E3.1",
+    "description": "Couche de roulement en béton bitumineux semi-grenu, BBSG 0/14",
+    "um": "Tonne",
+    "dzd": 4337.9,
+    "euro": 27.0,
+    "dzd_eqv": 7100.0,
+    "series": "SÉRIE E. CHAUSSÉE",
+    "category": "COUCHE DE ROULEMENT EN BÉTON BITUMINEUX"
+  },
+  {
+    "art": "E3.2",
+    "description": "Couche de roulement en béton bitumineux module élevé (BBM A 0/10)",
+    "um": "Tonne",
+    "dzd": 4650.19,
+    "euro": 34.7,
+    "dzd_eqv": 8200.0,
+    "series": "SÉRIE E. CHAUSSÉE",
+    "category": "COUCHE DE ROULEMENT EN BÉTON BITUMINEUX"
+  },
+  {
+    "art": "E3.3",
+    "description": "Couche de roulement en béton bitumineux module élevé (BBME 0/10)",
+    "um": "Tonne",
+    "dzd": 4670.65,
+    "euro": 34.5,
+    "dzd_eqv": 8200.0,
+    "series": "SÉRIE E. CHAUSSÉE",
+    "category": "COUCHE DE ROULEMENT EN BÉTON BITUMINEUX"
+  },
+  {
+    "art": "E4.1",
+    "description": "Couche dimprégnation",
+    "um": "m2",
+    "dzd": 95.0,
+    "euro": 0.0,
+    "dzd_eqv": 95.0,
+    "series": "SÉRIE E. CHAUSSÉE",
+    "category": "LIANTS HYDROCARBONES"
+  },
+  {
+    "art": "E4.2",
+    "description": "Couche daccrochage",
+    "um": "m2",
+    "dzd": 70.0,
+    "euro": 0.0,
+    "dzd_eqv": 70.0,
+    "series": "SÉRIE E. CHAUSSÉE",
+    "category": "LIANTS HYDROCARBONES"
+  },
+  {
+    "art": "E5.1",
+    "description": "Revêtement bicouche",
+    "um": "m2",
+    "dzd": 540.0,
+    "euro": 0.0,
+    "dzd_eqv": 540.0,
+    "series": "SÉRIE E. CHAUSSÉE",
+    "category": "REVÁTEMENT DE SURFACE"
+  },
+  {
+    "art": "E6.1",
+    "description": "Bordure haute normalisée (type A2) en béton préfabriqué",
+    "um": "ml",
+    "dzd": 2000.0,
+    "euro": 0.0,
+    "dzd_eqv": 2000.0,
+    "series": "SÉRIE E. CHAUSSÉE",
+    "category": "ÎLOTS ET TROTTOIRS"
+  },
+  {
+    "art": "F1.1",
+    "description": "Marquage par hachures (zébras)",
+    "um": "m2",
+    "dzd": 680.0,
+    "euro": 0.0,
+    "dzd_eqv": 680.0,
+    "series": "SÉRIE F. SIGNALISATION HORIZONTALE",
+    "category": "MARQUAGE SUR CHAUSSÉE EN ENDUIT À CHAUD"
+  },
+  {
+    "art": "F1.2",
+    "description": "Bande de largeur de 100 mm",
+    "um": "ml",
+    "dzd": 70.0,
+    "euro": 0.0,
+    "dzd_eqv": 70.0,
+    "series": "SÉRIE F. SIGNALISATION HORIZONTALE",
+    "category": "MARQUAGE SUR CHAUSSÉE EN ENDUIT À CHAUD"
+  },
+  {
+    "art": "F1.3",
+    "description": "Bande de largeur de 150 mm",
+    "um": "ml",
+    "dzd": 145.0,
+    "euro": 0.0,
+    "dzd_eqv": 145.0,
+    "series": "SÉRIE F. SIGNALISATION HORIZONTALE",
+    "category": "MARQUAGE SUR CHAUSSÉE EN ENDUIT À CHAUD"
+  },
+  {
+    "art": "F1.4",
+    "description": "Bande de largeur de 225 mm",
+    "um": "ml",
+    "dzd": 200.0,
+    "euro": 0.0,
+    "dzd_eqv": 200.0,
+    "series": "SÉRIE F. SIGNALISATION HORIZONTALE",
+    "category": "MARQUAGE SUR CHAUSSÉE EN ENDUIT À CHAUD"
+  },
+  {
+    "art": "F1.5",
+    "description": "Bande de largeur de 375 mm",
+    "um": "ml",
+    "dzd": 340.0,
+    "euro": 0.0,
+    "dzd_eqv": 340.0,
+    "series": "SÉRIE F. SIGNALISATION HORIZONTALE",
+    "category": "MARQUAGE SUR CHAUSSÉE EN ENDUIT À CHAUD"
+  },
+  {
+    "art": "F1.6",
+    "description": "Bande de largeur de 500 mm",
+    "um": "ml",
+    "dzd": 420.0,
+    "euro": 0.0,
+    "dzd_eqv": 420.0,
+    "series": "SÉRIE F. SIGNALISATION HORIZONTALE",
+    "category": "MARQUAGE SUR CHAUSSÉE EN ENDUIT À CHAUD"
+  },
+  {
+    "art": "F1.7",
+    "description": "Marquage de flèches de rabattement",
+    "um": "U",
+    "dzd": 600.0,
+    "euro": 0.0,
+    "dzd_eqv": 600.0,
+    "series": "SÉRIE F. SIGNALISATION HORIZONTALE",
+    "category": "MARQUAGE SUR CHAUSSÉE EN ENDUIT À CHAUD"
+  },
+  {
+    "art": "F1.8",
+    "description": "Marquage de flèche unidirectionnelle",
+    "um": "U",
+    "dzd": 800.0,
+    "euro": 0.0,
+    "dzd_eqv": 800.0,
+    "series": "SÉRIE F. SIGNALISATION HORIZONTALE",
+    "category": "MARQUAGE SUR CHAUSSÉE EN ENDUIT À CHAUD"
+  },
+  {
+    "art": "F1.9",
+    "description": "Marquage de flèche bidirectionnelle",
+    "um": "U",
+    "dzd": 820.0,
+    "euro": 0.0,
+    "dzd_eqv": 820.0,
+    "series": "SÉRIE F. SIGNALISATION HORIZONTALE",
+    "category": "MARQUAGE SUR CHAUSSÉE EN ENDUIT À CHAUD"
+  },
+  {
+    "art": "F2.1",
+    "description": "Bande préfabriquée de largeur de 150 mm",
+    "um": "ml",
+    "dzd": 800.0,
+    "euro": 0.0,
+    "dzd_eqv": 800.0,
+    "series": "SÉRIE F. SIGNALISATION HORIZONTALE",
+    "category": "MARQUAGE PRÉFABRIQUÉ"
+  },
+  {
+    "art": "G1.1",
+    "description": "Panneau triangulaire de très grande gamme (côté nominal 1500 mm)",
+    "um": "U",
+    "dzd": 52000.0,
+    "euro": 0.0,
+    "dzd_eqv": 52000.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "PANNEAUX DE TYPES A, AB, B, C, CE"
+  },
+  {
+    "art": "G1.2",
+    "description": "Panneau triangulaire de gamme normale (côté nominal 1000 mm)",
+    "um": "U",
+    "dzd": 42400.0,
+    "euro": 0.0,
+    "dzd_eqv": 42400.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "PANNEAUX DE TYPES A, AB, B, C, CE"
+  },
+  {
+    "art": "G1.3",
+    "description": "Panneau circulaire de très grande gamme (diamètre de 1250 mm)",
+    "um": "U",
+    "dzd": 48600.0,
+    "euro": 0.0,
+    "dzd_eqv": 48600.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "PANNEAUX DE TYPES A, AB, B, C, CE"
+  },
+  {
+    "art": "G1.4",
+    "description": "Panneau circulaire de gamme normale (diamètre de 850 mm)",
+    "um": "U",
+    "dzd": 41500.0,
+    "euro": 0.0,
+    "dzd_eqv": 41500.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "PANNEAUX DE TYPES A, AB, B, C, CE"
+  },
+  {
+    "art": "G1.5",
+    "description": "Panneau carré de très grande gamme (côté nominal 1050 mm)",
+    "um": "U",
+    "dzd": 43000.0,
+    "euro": 0.0,
+    "dzd_eqv": 43000.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "PANNEAUX DE TYPES A, AB, B, C, CE"
+  },
+  {
+    "art": "G1.6",
+    "description": "Panneau carré de gamme normale (côté nominal 700 mm)",
+    "um": "U",
+    "dzd": 38800.0,
+    "euro": 0.0,
+    "dzd_eqv": 38800.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "PANNEAUX DE TYPES A, AB, B, C, CE"
+  },
+  {
+    "art": "G1.7",
+    "description": "Panneau octogonal de gamme normale (largeur de 800 mm)",
+    "um": "U",
+    "dzd": 40700.0,
+    "euro": 0.0,
+    "dzd_eqv": 40700.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "PANNEAUX DE TYPES A, AB, B, C, CE"
+  },
+  {
+    "art": "G2.1",
+    "description": "Panonceau de type M",
+    "um": "m2",
+    "dzd": 42000.0,
+    "euro": 0.0,
+    "dzd_eqv": 42000.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "PANNEAUX DE TYPES M, E"
+  },
+  {
+    "art": "G2.2",
+    "description": "Panneau de type E",
+    "um": "m2",
+    "dzd": 57000.0,
+    "euro": 0.0,
+    "dzd_eqv": 57000.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "PANNEAUX DE TYPES M, E"
+  },
+  {
+    "art": "G3.1",
+    "description": "Panneau de direction de type D",
+    "um": "m2",
+    "dzd": 64000.0,
+    "euro": 0.0,
+    "dzd_eqv": 64000.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "PANNEAUX DE DIRECTION"
+  },
+  {
+    "art": "G4.1",
+    "description": "Balise de type J1",
+    "um": "U",
+    "dzd": 18000.0,
+    "euro": 0.0,
+    "dzd_eqv": 18000.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "BALISE"
+  },
+  {
+    "art": "G4.2",
+    "description": "Balise de type J3",
+    "um": "U",
+    "dzd": 26700.0,
+    "euro": 0.0,
+    "dzd_eqv": 26700.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "BALISE"
+  },
+  {
+    "art": "G4.3",
+    "description": "Balise de type J4",
+    "um": "U",
+    "dzd": 64000.0,
+    "euro": 0.0,
+    "dzd_eqv": 64000.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "BALISE"
+  },
+  {
+    "art": "G4.4",
+    "description": "Balise de type J5",
+    "um": "U",
+    "dzd": 22500.0,
+    "euro": 0.0,
+    "dzd_eqv": 22500.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "BALISE"
+  },
+  {
+    "art": "G4.5",
+    "description": "Balise de type J6",
+    "um": "U",
+    "dzd": 24000.0,
+    "euro": 0.0,
+    "dzd_eqv": 24000.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "BALISE"
+  },
+  {
+    "art": "G4.6",
+    "description": "Balise de type J14a",
+    "um": "U",
+    "dzd": 46000.0,
+    "euro": 0.0,
+    "dzd_eqv": 46000.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "BALISE"
+  },
+  {
+    "art": "G5.1",
+    "description": "Poteaux de moment inertie 25 cm4 < Ix < 50 cm4",
+    "um": "ml",
+    "dzd": 9776.59,
+    "euro": 0.0,
+    "dzd_eqv": 9776.59,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "SUPPORT DE PANNEAUX"
+  },
+  {
+    "art": "G5.2",
+    "description": "Poteaux de moment inertie 50 cm4 < Ix < 100 cm4",
+    "um": "ml",
+    "dzd": 13035.47,
+    "euro": 0.0,
+    "dzd_eqv": 13035.47,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "SUPPORT DE PANNEAUX"
+  },
+  {
+    "art": "G5.3",
+    "description": "Poteaux de moment inertie 100 cm4 < Ix < 200 cm4",
+    "um": "ml",
+    "dzd": 16294.33,
+    "euro": 0.0,
+    "dzd_eqv": 16294.33,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "SUPPORT DE PANNEAUX"
+  },
+  {
+    "art": "G5.4",
+    "description": "Poteaux de moment inertie 400 cm4 < Ix < 800 cm4",
+    "um": "ml",
+    "dzd": 19553.22,
+    "euro": 0.0,
+    "dzd_eqv": 19553.22,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "SUPPORT DE PANNEAUX"
+  },
+  {
+    "art": "G5.5",
+    "description": "Poteaux de moment inertie 800 cm4 < Ix < 1 600 cm4",
+    "um": "ml",
+    "dzd": 26070.91,
+    "euro": 0.0,
+    "dzd_eqv": 26070.91,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "SUPPORT DE PANNEAUX"
+  },
+  {
+    "art": "G5.6",
+    "description": "Poteaux de moment inertie 1600 cm4 < Ix < 3 200 cm4",
+    "um": "ml",
+    "dzd": 32588.67,
+    "euro": 0.0,
+    "dzd_eqv": 32588.67,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "SUPPORT DE PANNEAUX"
+  },
+  {
+    "art": "G5.7",
+    "description": "Semelle de fondation",
+    "um": "m3",
+    "dzd": 8020.53,
+    "euro": 38.9,
+    "dzd_eqv": 12000.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "SUPPORT DE PANNEAUX"
+  },
+  {
+    "art": "G6.1",
+    "description": "Jalonneur sur pied avec un réflecteur",
+    "um": "U",
+    "dzd": 8450.0,
+    "euro": 0.0,
+    "dzd_eqv": 8450.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "JALONNEURS"
+  },
+  {
+    "art": "G6.2",
+    "description": "Jalonneur sur pied avec deux réflecteurs",
+    "um": "U",
+    "dzd": 9380.0,
+    "euro": 0.0,
+    "dzd_eqv": 9380.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "JALONNEURS"
+  },
+  {
+    "art": "G7.1.1",
+    "description": "Réflecteur simple face sur GBA, DBA",
+    "um": "U",
+    "dzd": 1670.0,
+    "euro": 0.0,
+    "dzd_eqv": 1670.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "RÉFLECTEURS, PLOTS, ÉCRANS"
+  },
+  {
+    "art": "G7.1.2",
+    "description": "Réflecteur simple face sur glissières et barrières métalliques",
+    "um": "U",
+    "dzd": 1400.0,
+    "euro": 0.0,
+    "dzd_eqv": 1400.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "RÉFLECTEURS, PLOTS, ÉCRANS"
+  },
+  {
+    "art": "G7.2",
+    "description": "Plots rétroréfléchissants",
+    "um": "U",
+    "dzd": 2280.0,
+    "euro": 0.0,
+    "dzd_eqv": 2280.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "RÉFLECTEURS, PLOTS, ÉCRANS"
+  },
+  {
+    "art": "G7.3",
+    "description": "Écran anti-éblouissement",
+    "um": "U",
+    "dzd": 21300.0,
+    "euro": 0.0,
+    "dzd_eqv": 21300.0,
+    "series": "SÉRIE G. SIGNALISATION VERTICALE",
+    "category": "RÉFLECTEURS, PLOTS, ÉCRANS"
+  },
+  {
+    "art": "H1.1.1",
+    "description": "Glissières de sécurité GS4 - Profil A  L = 2,00 m",
+    "um": "ml",
+    "dzd": 1238.45,
+    "euro": 48.5,
+    "dzd_eqv": 6200.0,
+    "series": "SÉRIE H. DISPOSITIFS DE RETENUE",
+    "category": "GLISSIÊRES MÉTALLIQUES SIMPLES"
+  },
+  {
+    "art": "H2.1.1",
+    "description": "Barrière en béton extrudé de type GBA (simple talon)",
+    "um": "ml",
+    "dzd": 3932.51,
+    "euro": 16.3,
+    "dzd_eqv": 5600.0,
+    "series": "SÉRIE H. DISPOSITIFS DE RETENUE",
+    "category": "DISPOSITIFS DE RETENUE EN BÉTON"
+  },
+  {
+    "art": "H2.1.2",
+    "description": "Barrière en béton extrudé de type DBA (double talon)",
+    "um": "ml",
+    "dzd": 4586.99,
+    "euro": 18.7,
+    "dzd_eqv": 6500.0,
+    "series": "SÉRIE H. DISPOSITIFS DE RETENUE",
+    "category": "DISPOSITIFS DE RETENUE EN BÉTON"
+  },
+  {
+    "art": "H2.2",
+    "description": "Semelles en béton pour GBA",
+    "um": "ml",
+    "dzd": 723.79,
+    "euro": 2.7,
+    "dzd_eqv": 1000.0,
+    "series": "SÉRIE H. DISPOSITIFS DE RETENUE",
+    "category": "DISPOSITIFS DE RETENUE EN BÉTON"
+  },
+  {
+    "art": "H3.1",
+    "description": "Extrémité de file GBA sur 20,00 mètres",
+    "um": "U",
+    "dzd": 5150.55,
+    "euro": 21.5,
+    "dzd_eqv": 7350.0,
+    "series": "SÉRIE H. DISPOSITIFS DE RETENUE",
+    "category": "EXTRÉMITÉS DE FILES POUR GBA OU DBA"
+  },
+  {
+    "art": "H3.2",
+    "description": "Extrémité de file GBA sur 1,65 mètre",
+    "um": "U",
+    "dzd": 6032.27,
+    "euro": 25.1,
+    "dzd_eqv": 8600.0,
+    "series": "SÉRIE H. DISPOSITIFS DE RETENUE",
+    "category": "EXTRÉMITÉS DE FILES POUR GBA OU DBA"
+  },
+  {
+    "art": "I1.1",
+    "description": "Fouilles pour fondations",
+    "um": "m3",
+    "dzd": 178.16,
+    "euro": 0.8,
+    "dzd_eqv": 260.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "FONDATIONS POUR ÉCRANS ANTIBRUIT"
+  },
+  {
+    "art": "I1.2",
+    "description": "Remblaiement des fouilles de fondation",
+    "um": "m3",
+    "dzd": 822.41,
+    "euro": 3.3,
+    "dzd_eqv": 1160.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "FONDATIONS POUR ÉCRANS ANTIBRUIT"
+  },
+  {
+    "art": "I1.3",
+    "description": "Béton de propreté pour fondations",
+    "um": "m3",
+    "dzd": 5919.19,
+    "euro": 4.7,
+    "dzd_eqv": 6400.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "FONDATIONS POUR ÉCRANS ANTIBRUIT"
+  },
+  {
+    "art": "I1.4",
+    "description": "Coffrage pour fondations",
+    "um": "m2",
+    "dzd": 812.29,
+    "euro": 7.7,
+    "dzd_eqv": 1600.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "FONDATIONS POUR ÉCRANS ANTIBRUIT"
+  },
+  {
+    "art": "I1.5",
+    "description": "Coffrage pour longrines",
+    "um": "m2",
+    "dzd": 1349.88,
+    "euro": 4.4,
+    "dzd_eqv": 1800.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "FONDATIONS POUR ÉCRANS ANTIBRUIT"
+  },
+  {
+    "art": "I1.6",
+    "description": "Béton pour fondations et longrines",
+    "um": "m3",
+    "dzd": 8973.98,
+    "euro": 37.4,
+    "dzd_eqv": 12800.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "FONDATIONS POUR ÉCRANS ANTIBRUIT"
+  },
+  {
+    "art": "I1.7",
+    "description": "Aciers de ferraillage",
+    "um": "Kg",
+    "dzd": 66.08,
+    "euro": 0.4,
+    "dzd_eqv": 107.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "FONDATIONS POUR ÉCRANS ANTIBRUIT"
+  },
+  {
+    "art": "I2.1",
+    "description": "Support HEA 140, longueur de 1,00 m < L < 1,50 m",
+    "um": "U",
+    "dzd": 9600.0,
+    "euro": 0.0,
+    "dzd_eqv": 9600.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "SUPPORT HEA POUR ÉCRAN"
+  },
+  {
+    "art": "I2.2",
+    "description": "Support HEA 160, longueur de 1,50 m < L < 2,00 m",
+    "um": "U",
+    "dzd": 14500.0,
+    "euro": 0.0,
+    "dzd_eqv": 14500.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "SUPPORT HEA POUR ÉCRAN"
+  },
+  {
+    "art": "I2.3",
+    "description": "Support HEA 180, longueur de 2,00 m < L < 2,50 m",
+    "um": "U",
+    "dzd": 18220.0,
+    "euro": 0.0,
+    "dzd_eqv": 18220.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "SUPPORT HEA POUR ÉCRAN"
+  },
+  {
+    "art": "I2.4",
+    "description": "Support HEA 220, longueur de 2,50 m < L < 3,00 m",
+    "um": "U",
+    "dzd": 28300.0,
+    "euro": 0.0,
+    "dzd_eqv": 28300.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "SUPPORT HEA POUR ÉCRAN"
+  },
+  {
+    "art": "I2.5",
+    "description": "Support HEA 260, longueur de 3,00 m < L < 3,50 m",
+    "um": "U",
+    "dzd": 41300.0,
+    "euro": 0.0,
+    "dzd_eqv": 41300.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "SUPPORT HEA POUR ÉCRAN"
+  },
+  {
+    "art": "I2.6",
+    "description": "Support HEA 280, longueur de 3,50 m < L < 4,00 m",
+    "um": "U",
+    "dzd": 52500.0,
+    "euro": 0.0,
+    "dzd_eqv": 52500.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "SUPPORT HEA POUR ÉCRAN"
+  },
+  {
+    "art": "I3.1",
+    "description": "Panneaux réfléchissants en béton expansé",
+    "um": "m2",
+    "dzd": 88750.0,
+    "euro": 0.0,
+    "dzd_eqv": 88750.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "PANNEAUX PRÉFABRIQUÉS POUR ÉCRAN"
+  },
+  {
+    "art": "I4.1",
+    "description": "Déblais pour bassins",
+    "um": "m3",
+    "dzd": 168.16,
+    "euro": 0.8,
+    "dzd_eqv": 250.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "BASSINS"
+  },
+  {
+    "art": "I5.1",
+    "description": "Argile compactée",
+    "um": "m3",
+    "dzd": 474.48,
+    "euro": 2.4,
+    "dzd_eqv": 720.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "REVETEMENTS DES BASSINS"
+  },
+  {
+    "art": "I5.2",
+    "description": "Terre végétale",
+    "um": "m3",
+    "dzd": 268.39,
+    "euro": 0.7,
+    "dzd_eqv": 340.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "REVETEMENTS DES BASSINS"
+  },
+  {
+    "art": "I5.3",
+    "description": "Enrochement",
+    "um": "m3",
+    "dzd": 2205.85,
+    "euro": 10.5,
+    "dzd_eqv": 3280.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "REVETEMENTS DES BASSINS"
+  },
+  {
+    "art": "I5.4",
+    "description": "Grave Non traitée (GNT)",
+    "um": "m3",
+    "dzd": 2179.54,
+    "euro": 0.2,
+    "dzd_eqv": 2200.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "REVETEMENTS DES BASSINS"
+  },
+  {
+    "art": "I6.1",
+    "description": "Séparateur dhydrocarbures, débit de traitement de 100 l/s",
+    "um": "U",
+    "dzd": 4400000.0,
+    "euro": 0.0,
+    "dzd_eqv": 4400000.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "SÉPARATEUR D'HYDROCARBURES"
+  },
+  {
+    "art": "I7.1",
+    "description": "Regard siphoïde, débit de surverse de 250 l/s",
+    "um": "U",
+    "dzd": 280000.0,
+    "euro": 0.0,
+    "dzd_eqv": 280000.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "REGARDS SIPHOÏDES ET VANNES"
+  },
+  {
+    "art": "I7.2.1",
+    "description": "Vanne de dérivation en bastaings pour fossé bétonné",
+    "um": "U",
+    "dzd": 282000.0,
+    "euro": 0.0,
+    "dzd_eqv": 282000.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "REGARDS SIPHOÏDES ET VANNES"
+  },
+  {
+    "art": "I8.1",
+    "description": "Clôtures anti-intrusion (barbelé)",
+    "um": "ml",
+    "dzd": 5934.02,
+    "euro": 2.6,
+    "dzd_eqv": 6200.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "CL.TURES ET PORTAILS"
+  },
+  {
+    "art": "I8.2",
+    "description": "Portail double battant",
+    "um": "U",
+    "dzd": 250000.0,
+    "euro": 0.0,
+    "dzd_eqv": 250000.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "CL.TURES ET PORTAILS"
+  },
+  {
+    "art": "I9.1",
+    "description": "Plantation darbres",
+    "um": "m2",
+    "dzd": 1545.17,
+    "euro": 0.0,
+    "dzd_eqv": 1545.17,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "PLANTATIONS"
+  },
+  {
+    "art": "I9.2",
+    "description": "Plantation de baliveaux",
+    "um": "m2",
+    "dzd": 1822.86,
+    "euro": 0.0,
+    "dzd_eqv": 1822.86,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "PLANTATIONS"
+  },
+  {
+    "art": "I9.3",
+    "description": "Plantation despèces darbrisseaux",
+    "um": "m2",
+    "dzd": 1103.0,
+    "euro": 0.0,
+    "dzd_eqv": 1103.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "PLANTATIONS"
+  },
+  {
+    "art": "I9.4",
+    "description": "Engazonnement",
+    "um": "m2",
+    "dzd": 637.19,
+    "euro": 0.0,
+    "dzd_eqv": 637.19,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "PLANTATIONS"
+  },
+  {
+    "art": "I9.5",
+    "description": "Plantation darbustes",
+    "um": "m2",
+    "dzd": 797.0,
+    "euro": 0.0,
+    "dzd_eqv": 797.0,
+    "series": "SÉRIE I. ENVIRONNEMENT ET PAYSAGE",
+    "category": "PLANTATIONS"
+  },
+  {
+    "art": "J1.1",
+    "description": "Mur de soutènement en gabions",
+    "um": "m3",
+    "dzd": 3034.57,
+    "euro": 24.1,
+    "dzd_eqv": 5500.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "MURS GABIONS"
+  },
+  {
+    "art": "J2.1",
+    "description": "Béton projeté RN 30 (ep=15cm)",
+    "um": "m3",
+    "dzd": 13478.48,
+    "euro": 122.4,
+    "dzd_eqv": 26000.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "MURS EN BÉTON PROJETÉ"
+  },
+  {
+    "art": "J2.2",
+    "description": "Treillis soudés",
+    "um": "Kg",
+    "dzd": 71.85,
+    "euro": 0.5,
+    "dzd_eqv": 123.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "MURS EN BÉTON PROJETÉ"
+  },
+  {
+    "art": "J2.3.1",
+    "description": "Clous de 12m",
+    "um": "U",
+    "dzd": 19236.87,
+    "euro": 23.1,
+    "dzd_eqv": 21600.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "MURS EN BÉTON PROJETÉ"
+  },
+  {
+    "art": "J2.3.2",
+    "description": "Clous de 16m",
+    "um": "U",
+    "dzd": 25638.93,
+    "euro": 30.9,
+    "dzd_eqv": 28800.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "MURS EN BÉTON PROJETÉ"
+  },
+  {
+    "art": "J2.3.3",
+    "description": "Clous de 20m",
+    "um": "U",
+    "dzd": 32010.3,
+    "euro": 39.0,
+    "dzd_eqv": 36000.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "MURS EN BÉTON PROJETÉ"
+  },
+  {
+    "art": "J3.1",
+    "description": "Mise en .uvre de merlons",
+    "um": "m3",
+    "dzd": 217.7,
+    "euro": 1.0,
+    "dzd_eqv": 320.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "MERLON"
+  },
+  {
+    "art": "J4.1",
+    "description": "Éperons et épis drainants",
+    "um": "m3",
+    "dzd": 1870.0,
+    "euro": 0.0,
+    "dzd_eqv": 1870.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "ÉPERONS ET ÉPIS DRAINANTS"
+  },
+  {
+    "art": "J5",
+    "description": "Masque poids pour stabilisation de talus",
+    "um": "m3",
+    "dzd": 1200.0,
+    "euro": 0.0,
+    "dzd_eqv": 1200.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "ÉPERONS ET ÉPIS DRAINANTS"
+  },
+  {
+    "art": "J6.1",
+    "description": "Drains subhorizontaux",
+    "um": "ml",
+    "dzd": 4700.0,
+    "euro": 0.0,
+    "dzd_eqv": 4700.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "DRAINS"
+  },
+  {
+    "art": "J7",
+    "description": "Barbacanes en PVC de diamètre 50 mm",
+    "um": "ml",
+    "dzd": 980.0,
+    "euro": 0.0,
+    "dzd_eqv": 980.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "DRAINS"
+  },
+  {
+    "art": "J8.1",
+    "description": "Execution d'ancrages passifs d'un diamètre de 32mm",
+    "um": "ml",
+    "dzd": 470.1,
+    "euro": 13.0,
+    "dzd_eqv": 1800.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "ANCRAGES PASSIFS"
+  },
+  {
+    "art": "J8.2",
+    "description": "Execution d'ancrages passifs d'un diamètre de 28mm",
+    "um": "ml",
+    "dzd": 531.48,
+    "euro": 12.4,
+    "dzd_eqv": 1800.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "ANCRAGES PASSIFS"
+  },
+  {
+    "art": "J8.3",
+    "description": "Execution d'ancrages passifs d'un diamètre de 25mm",
+    "um": "ml",
+    "dzd": 664.47,
+    "euro": 11.1,
+    "dzd_eqv": 1800.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "ANCRAGES PASSIFS"
+  },
+  {
+    "art": "J8.4",
+    "description": "Essais d'ancrages passifs",
+    "um": "U",
+    "dzd": 32400.0,
+    "euro": 0.0,
+    "dzd_eqv": 32400.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "ANCRAGES PASSIFS"
+  },
+  {
+    "art": "J9",
+    "description": "Géotextile alvéolaire",
+    "um": "m2",
+    "dzd": 780.0,
+    "euro": 0.0,
+    "dzd_eqv": 780.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "ANCRAGES PASSIFS"
+  },
+  {
+    "art": "J10",
+    "description": "Grillage boulonné",
+    "um": "m2",
+    "dzd": 9957.81,
+    "euro": 5.3,
+    "dzd_eqv": 10500.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "ANCRAGES PASSIFS"
+  },
+  {
+    "art": "J11",
+    "description": "Atalus",
+    "um": "m2",
+    "dzd": 18500.0,
+    "euro": 0.0,
+    "dzd_eqv": 18500.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "ANCRAGES PASSIFS"
+  },
+  {
+    "art": "J12.1",
+    "description": "Pour murs d'une hauteur de moins de 15 m",
+    "um": "m2",
+    "dzd": 13600.0,
+    "euro": 0.0,
+    "dzd_eqv": 13600.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "SOUTÊNEMENT EN TERRE ARMÉE"
+  },
+  {
+    "art": "J12.2",
+    "description": "Pour murs d'une hauteur de plus de 15 m",
+    "um": "m2",
+    "dzd": 15700.0,
+    "euro": 0.0,
+    "dzd_eqv": 15700.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "SOUTÊNEMENT EN TERRE ARMÉE"
+  },
+  {
+    "art": "J13",
+    "description": "Rideau de palplanches",
+    "um": "m2",
+    "dzd": 25200.0,
+    "euro": 0.0,
+    "dzd_eqv": 25200.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "SOUTÊNEMENT EN TERRE ARMÉE"
+  },
+  {
+    "art": "J14",
+    "description": "Perrés maçonnés",
+    "um": "m2",
+    "dzd": 2554.48,
+    "euro": 2.4,
+    "dzd_eqv": 2800.0,
+    "series": "SÉRIE J. SOUTÊNEMENTS",
+    "category": "SOUTÊNEMENT EN TERRE ARMÉE"
+  },
+  {
+    "art": "K1.1",
+    "description": "Caméra de vidéosurveillance",
+    "um": "U",
+    "dzd": 412003.51,
+    "euro": 36246.3,
+    "dzd_eqv": 4120000.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "Système de vidéosurveillance et de détection d'accidents dans le secteur de l'aéroport"
+  },
+  {
+    "art": "K1.2",
+    "description": "Poteau pour caméra",
+    "um": "U",
+    "dzd": 23504.98,
+    "euro": 2067.4,
+    "dzd_eqv": 235000.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "Système de vidéosurveillance et de détection d'accidents dans le secteur de l'aéroport"
+  },
+  {
+    "art": "K1.3",
+    "description": "Conduits pour câblage",
+    "um": "ml",
+    "dzd": 832.1,
+    "euro": 73.0,
+    "dzd_eqv": 8300.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "Système de vidéosurveillance et de détection d'accidents dans le secteur de l'aéroport"
+  },
+  {
+    "art": "K1.4",
+    "description": "Câblage des caméras",
+    "um": "ml",
+    "dzd": 448.69,
+    "euro": 39.7,
+    "dzd_eqv": 4510.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "Système de vidéosurveillance et de détection d'accidents dans le secteur de l'aéroport"
+  },
+  {
+    "art": "K1.5",
+    "description": "Système central de télésurveillance CCTV",
+    "um": "U",
+    "dzd": 1811998.95,
+    "euro": 159413.5,
+    "dzd_eqv": 18120000.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "Système de vidéosurveillance et de détection d'accidents dans le secteur de l'aéroport"
+  },
+  {
+    "art": "K1.6",
+    "description": "Système de détection des accidents et des Incidents (DAI)",
+    "um": "U",
+    "dzd": 356431.76,
+    "euro": 31168.8,
+    "dzd_eqv": 3545000.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "Système de vidéosurveillance et de détection d'accidents dans le secteur de l'aéroport"
+  },
+  {
+    "art": "K2",
+    "description": "Clôture pour le secteur de l'aéroport",
+    "um": "ml",
+    "dzd": 5200.0,
+    "euro": 0.0,
+    "dzd_eqv": 5200.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "Système de vidéosurveillance et de détection d'accidents dans le secteur de l'aéroport"
+  },
+  {
+    "art": "NP.11",
+    "description": "Poste d'observation (compris le PV de sortie du 09/06/2015) / Pistes pour les militaires/ Poste d'observation pour dépôt d’explosif de tunnel",
+    "um": "U",
+    "dzd": 12200000.0,
+    "euro": 0.0,
+    "dzd_eqv": 12200000.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 7"
+  },
+  {
+    "art": "NP.18",
+    "description": "Badigeonnage des parements enterés pour LOT ROUTE",
+    "um": "m²",
+    "dzd": 759.08,
+    "euro": 0.4,
+    "dzd_eqv": 800.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 7"
+  },
+  {
+    "art": "NP.26",
+    "description": "Géocomposite pour protection talus marnose",
+    "um": "m²",
+    "dzd": 764.73,
+    "euro": 26.64,
+    "dzd_eqv": 3490.002,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 7"
+  },
+  {
+    "art": "NP.27",
+    "description": "Masque a poids - Hors géotextile anticontimant à compenser avec Prix C7.2",
+    "um": "MC",
+    "dzd": 3405.85,
+    "euro": 10.5,
+    "dzd_eqv": 4480.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 7"
+  },
+  {
+    "art": "NP32",
+    "description": "Fibres pour Beton de fossè et canalette",
+    "um": "Kg",
+    "dzd": 974.7,
+    "euro": 0.0,
+    "dzd_eqv": 974.7,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 7"
+  },
+  {
+    "art": "NP.48",
+    "description": "Déplacement du cimetière",
+    "um": "U",
+    "dzd": 22275.0,
+    "euro": 0.0,
+    "dzd_eqv": 22275.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 7"
+  },
+  {
+    "art": "NP08.62",
+    "description": "Plus-value au prix J8 pour l'utilisation de plaque d'appui épaisseur 20 mm",
+    "um": "U",
+    "dzd": 630.0,
+    "euro": 0.0,
+    "dzd_eqv": 630.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 8"
+  },
+  {
+    "art": "NP08.64",
+    "description": "Chambre de tirage L5C",
+    "um": "U",
+    "dzd": 348873.07,
+    "euro": 11.02,
+    "dzd_eqv": 350000.416,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 8"
+  },
+  {
+    "art": "NP08.65",
+    "description": "Grille anti chute pour K2C ou K1C",
+    "um": "U",
+    "dzd": 41364.79,
+    "euro": 0.0,
+    "dzd_eqv": 41364.79,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 8"
+  },
+  {
+    "art": "NP08.67",
+    "description": "Reseau multitubulaire longitudinal",
+    "um": "ml",
+    "dzd": 6113.37,
+    "euro": 16.49,
+    "dzd_eqv": 7800.297,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 8"
+  },
+  {
+    "art": "NP08.68",
+    "description": "Traversée de chaussée",
+    "um": "ml",
+    "dzd": 6792.85,
+    "euro": 2.02,
+    "dzd_eqv": 6999.496,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 8"
+  },
+  {
+    "art": "NP08.74",
+    "description": "Couche de forme, en matériaux sélectionnés de type 0/31,5 fournis par l'entreprise conformément aux plans d'executions.",
+    "um": "m3",
+    "dzd": 1950.0,
+    "euro": 0.0,
+    "dzd_eqv": 1950.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 8"
+  },
+  {
+    "art": "NP08.14m",
+    "description": "Inclinomètres",
+    "um": "U",
+    "dzd": 209998.56,
+    "euro": 2052.8,
+    "dzd_eqv": 420000.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 8"
+  },
+  {
+    "art": "NP11.14a.1",
+    "description": "Exécutions de sondages carottés pour ouvrages nouveaux ou modifiés par rapport à l’APD",
+    "um": "ml",
+    "dzd": 18000.0,
+    "euro": 0.0,
+    "dzd_eqv": 18000.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 11"
+  },
+  {
+    "art": "NP11.14b.1",
+    "description": "Exécutions de sondages Pressiométriques pour ouvrages nouveaux ou modifiés par rapport à l’APD",
+    "um": "ml",
+    "dzd": 15500.0,
+    "euro": 0.0,
+    "dzd_eqv": 15500.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 11"
+  },
+  {
+    "art": "NP11.14c.1",
+    "description": "Essais Pressiométriques réalisés dans les trous de forage des sondages carottés pour ouvrages nouveaux ou modifiés par rapport à l’APD",
+    "um": "ml",
+    "dzd": 10000.0,
+    "euro": 0.0,
+    "dzd_eqv": 10000.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 11"
+  },
+  {
+    "art": "NP11.14d.1",
+    "description": "Essai Tomographie électrique",
+    "um": "ml",
+    "dzd": 851.0,
+    "euro": 0.0,
+    "dzd_eqv": 851.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 11"
+  },
+  {
+    "art": "NP11.14e.1",
+    "description": "Essai Sismique a réfraction",
+    "um": "ml",
+    "dzd": 1566.0,
+    "euro": 0.0,
+    "dzd_eqv": 1566.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 11"
+  },
+  {
+    "art": "NP11.19",
+    "description": "Études apportés suite a la modification du tracé par rapport à l’APD",
+    "um": "ft",
+    "dzd": 36723806.0,
+    "euro": 358780.0,
+    "dzd_eqv": 73427000.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "NOUVEAUX PRIX LOT ROUTE AVENANT 11"
+  },
+  {
+    "art": "TU.E1.1",
+    "description": "Couche de fondation en grave non traitée (GNT)",
+    "um": "m3",
+    "dzd": 1862.41,
+    "euro": 3.3,
+    "dzd_eqv": 2200.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E1.2",
+    "description": "Pierre nette 15/25",
+    "um": "m3",
+    "dzd": 2800.0,
+    "euro": 0.0,
+    "dzd_eqv": 2800.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E1.3",
+    "description": "Enrobé à module élevé (EME)",
+    "um": "Tonne",
+    "dzd": 4812.84,
+    "euro": 29.2,
+    "dzd_eqv": 7800.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E1.4",
+    "description": "Couche de roulement en béton bitumineux",
+    "um": "Tonne",
+    "dzd": 4337.9,
+    "euro": 27.0,
+    "dzd_eqv": 7100.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E1.5",
+    "description": "Couche d'imprégnation",
+    "um": "m2",
+    "dzd": 95.0,
+    "euro": 0.0,
+    "dzd_eqv": 95.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E2.1",
+    "description": "Bande discontinue de module 3-10, largeur 15 cm",
+    "um": "ml",
+    "dzd": 110.0,
+    "euro": 0.0,
+    "dzd_eqv": 110.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E2.2",
+    "description": "Bande discontinue de module 20-6, largeur 22,5 cm",
+    "um": "ml",
+    "dzd": 125.0,
+    "euro": 0.0,
+    "dzd_eqv": 125.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.2.3",
+    "description": "Bande continue, largeur 22,5 cm",
+    "um": "ml",
+    "dzd": 135.0,
+    "euro": 0.0,
+    "dzd_eqv": 135.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.5",
+    "description": "Portique  hors de gabarit",
+    "um": "U",
+    "dzd": 309995.66,
+    "euro": 57575.8,
+    "dzd_eqv": 6200000.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.1.1",
+    "description": "Panneau « Tunnel » (signal C111)",
+    "um": "U",
+    "dzd": 11768.62,
+    "euro": 2185.0,
+    "dzd_eqv": 235294.12,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.1.2",
+    "description": "Panneau  (signal B12)",
+    "um": "U",
+    "dzd": 11768.62,
+    "euro": 2185.0,
+    "dzd_eqv": 235294.12,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.1.3",
+    "description": "panneau de vitesse maximale autorisée dans le tunnel (signal B14)",
+    "um": "U",
+    "dzd": 11768.62,
+    "euro": 2185.0,
+    "dzd_eqv": 235294.12,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.1.4",
+    "description": "panneau dinterdiction de dépasser (signaux B3 et B3a);",
+    "um": "U",
+    "dzd": 11768.62,
+    "euro": 2185.0,
+    "dzd_eqv": 235294.12,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.1.5",
+    "description": "panneau  (signaux B18aB18c,B18c);",
+    "um": "U",
+    "dzd": 11768.62,
+    "euro": 2185.0,
+    "dzd_eqv": 235294.12,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.1.6",
+    "description": "panneau « sortie de tunnel » (signal C112)",
+    "um": "U",
+    "dzd": 11768.62,
+    "euro": 2185.0,
+    "dzd_eqv": 235294.12,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.2.1",
+    "description": "type signal B14",
+    "um": "U",
+    "dzd": 9998.21,
+    "euro": 1857.3,
+    "dzd_eqv": 199999.99999999997,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.2.2",
+    "description": "type B17",
+    "um": "U",
+    "dzd": 9998.21,
+    "euro": 1857.3,
+    "dzd_eqv": 199999.99999999997,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.2.3",
+    "description": "type B9a",
+    "um": "U",
+    "dzd": 9998.21,
+    "euro": 1857.3,
+    "dzd_eqv": 199999.99999999997,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.2.4",
+    "description": "type B9b",
+    "um": "U",
+    "dzd": 9998.21,
+    "euro": 1857.3,
+    "dzd_eqv": 199999.99999999997,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.2.5",
+    "description": "type B3a",
+    "um": "U",
+    "dzd": 9998.21,
+    "euro": 1857.3,
+    "dzd_eqv": 199999.99999999997,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.2.6",
+    "description": "type B3b",
+    "um": "U",
+    "dzd": 9998.21,
+    "euro": 1857.3,
+    "dzd_eqv": 199999.99999999997,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.3.1",
+    "description": "type signal  C30a , C30b",
+    "um": "U",
+    "dzd": 2589.45,
+    "euro": 480.3,
+    "dzd_eqv": 51724.14,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.3.2",
+    "description": "type signal  Dp2a , Dp2b",
+    "um": "U",
+    "dzd": 2589.45,
+    "euro": 480.3,
+    "dzd_eqv": 51724.14,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.3.3",
+    "description": "type signal  CE2a",
+    "um": "U",
+    "dzd": 2589.45,
+    "euro": 480.3,
+    "dzd_eqv": 51724.14,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.3.4",
+    "description": "type signal CE29",
+    "um": "U",
+    "dzd": 2589.45,
+    "euro": 480.3,
+    "dzd_eqv": 51724.14,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.3.5",
+    "description": "type signal  M9",
+    "um": "U",
+    "dzd": 2589.45,
+    "euro": 480.3,
+    "dzd_eqv": 51724.14,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.3.6",
+    "description": "type signal  CE22",
+    "um": "U",
+    "dzd": 2589.45,
+    "euro": 480.3,
+    "dzd_eqv": 51724.14,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.R3.37",
+    "description": "type signal  CE8",
+    "um": "U",
+    "dzd": 2589.45,
+    "euro": 480.3,
+    "dzd_eqv": 51724.14,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.4.1",
+    "description": "Panneaux de consignes des niches de sécurité",
+    "um": "U",
+    "dzd": 18750.48,
+    "euro": 3482.4,
+    "dzd_eqv": 375000.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "TU.E3.4.2",
+    "description": "Panneaux de consignes des niches d'incendie",
+    "um": "U",
+    "dzd": 18750.48,
+    "euro": 3482.4,
+    "dzd_eqv": 375000.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "RU.E3.4.3",
+    "description": "Panneaux de consignes des galeries intertubes",
+    "um": "U",
+    "dzd": 18750.48,
+    "euro": 3482.4,
+    "dzd_eqv": 375000.0,
+    "series": "SÉRIE K. DISPOSITIFS DIVERS",
+    "category": "LOT TUNNEL"
+  },
+  {
+    "art": "OUA.A1",
+    "description": "Installation et repliement de chantier",
+    "um": "Ft",
+    "dzd": 1010357152.02,
+    "euro": 4786342.6,
+    "dzd_eqv": 1500000000.0,
+    "series": "SÉRIE A. PRIX GÉNÉRAUX",
+    "category": "Installation et repliement de chantier"
+  },
+  {
+    "art": "OUA.A2.1",
+    "description": "Études dexécution",
+    "um": "Ft",
+    "dzd": 455000003.56,
+    "euro": 4447702.8,
+    "dzd_eqv": 910000000.0,
+    "series": "SÉRIE A. PRIX GÉNÉRAUX",
+    "category": "Installation et repliement de chantier"
+  },
+  {
+    "art": "OUA.A2.2",
+    "description": "Dossier de récolement",
+    "um": "Ft",
+    "dzd": 43970223.22,
+    "euro": 430398.6,
+    "dzd_eqv": 88000000.0,
+    "series": "SÉRIE A. PRIX GÉNÉRAUX",
+    "category": "Installation et repliement de chantier"
+  },
+  {
+    "art": "OUA.A3",
+    "description": "Contrôle externe - Plan d'assurance Qualité",
+    "um": "Ft",
+    "dzd": 30000003.27,
+    "euro": 293255.1,
+    "dzd_eqv": 60000000.0,
+    "series": "SÉRIE A. PRIX GÉNÉRAUX",
+    "category": "Installation et repliement de chantier"
+  },
+  {
+    "art": "OUA.A4",
+    "description": "Reconnaissance géotechnique",
+    "um": "Ft",
+    "dzd": 210000002.43,
+    "euro": 2052785.9,
+    "dzd_eqv": 420000000.0,
+    "series": "SÉRIE A. PRIX GÉNÉRAUX",
+    "category": "Installation et repliement de chantier"
+  },
+  {
+    "art": "OUA.A5",
+    "description": "Protection de l'environnement",
+    "um": "Ft",
+    "dzd": 34999998.7,
+    "euro": 342131.0,
+    "dzd_eqv": 70000000.0,
+    "series": "SÉRIE A. PRIX GÉNÉRAUX",
+    "category": "Installation et repliement de chantier"
+  },
+  {
+    "art": "OUA.A6",
+    "description": "Épreuve générale de l'ouvrage",
+    "um": "Ft",
+    "dzd": 19218104.53,
+    "euro": 906958.9,
+    "dzd_eqv": 112000000.0,
+    "series": "SÉRIE A. PRIX GÉNÉRAUX",
+    "category": "Installation et repliement de chantier"
+  },
+  {
+    "art": "OUA.B1.1",
+    "description": "Déblais pour fouilles",
+    "um": "m3",
+    "dzd": 178.16,
+    "euro": 0.8,
+    "dzd_eqv": 260.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "TERRASSEMENT"
+  },
+  {
+    "art": "OUA.B1.2",
+    "description": "Plus value pour fouilles en terrain rocheux",
+    "um": "m3",
+    "dzd": 1113.56,
+    "euro": 2.8,
+    "dzd_eqv": 1400.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "TERRASSEMENT"
+  },
+  {
+    "art": "OUA.B1.3",
+    "description": "Remblaiement de fouilles",
+    "um": "m3",
+    "dzd": 613.56,
+    "euro": 2.8,
+    "dzd_eqv": 900.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "TERRASSEMENT"
+  },
+  {
+    "art": "OUA.B1.4",
+    "description": "Remblais aux abords immédiats des ouvrages",
+    "um": "m3",
+    "dzd": 734.02,
+    "euro": 2.6,
+    "dzd_eqv": 1000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "TERRASSEMENT"
+  },
+  {
+    "art": "OUA.B1.5",
+    "description": "Substitution de sol de qualité médiocre sous les semelles et les radiers",
+    "um": "m3",
+    "dzd": 377.01,
+    "euro": 1.3,
+    "dzd_eqv": 510.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "TERRASSEMENT"
+  },
+  {
+    "art": "OUA.B1.6",
+    "description": "Démolition d'ouvrages existants en béton",
+    "um": "m3",
+    "dzd": 1800.0,
+    "euro": 0.0,
+    "dzd_eqv": 1800.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "TERRASSEMENT"
+  },
+  {
+    "art": "OUA.B1.7",
+    "description": "Enrochements",
+    "um": "m3",
+    "dzd": 1245.4,
+    "euro": 2.0,
+    "dzd_eqv": 1450.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "TERRASSEMENT"
+  },
+  {
+    "art": "OUA.B2.1",
+    "description": "Forage des pieux verticaux ?1200 mm en terrain non rocheux",
+    "um": "ml",
+    "dzd": 5404.19,
+    "euro": 54.7,
+    "dzd_eqv": 11000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "PIEUX"
+  },
+  {
+    "art": "OUA.B2.2",
+    "description": "Plus-value pour forage en terrain rocheux nécessitant l'emploi d'un trépan",
+    "um": "ml",
+    "dzd": 802.06,
+    "euro": 7.8,
+    "dzd_eqv": 1600.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "PIEUX"
+  },
+  {
+    "art": "OUA.B2.3",
+    "description": "Fourniture et mise en oeuvre des tubes métalliques Ø50/60 pour auscultation sonique",
+    "um": "ml",
+    "dzd": 115.62,
+    "euro": 10.6,
+    "dzd_eqv": 1200.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "PIEUX"
+  },
+  {
+    "art": "OUA.B2.4",
+    "description": "Fourniture et mise en oeuvre des tubes métalliques Ø102/114 pour auscultation sonique",
+    "um": "ml",
+    "dzd": 5.15,
+    "euro": 19.5,
+    "dzd_eqv": 2000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "PIEUX"
+  },
+  {
+    "art": "OUA.B2.5",
+    "description": "Essai d'auscultation sonique",
+    "um": "U",
+    "dzd": 16000.0,
+    "euro": 0.0,
+    "dzd_eqv": 16000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "PIEUX"
+  },
+  {
+    "art": "OUA.B2.6",
+    "description": "Recépage des pieux",
+    "um": "U",
+    "dzd": 2237.11,
+    "euro": 14.3,
+    "dzd_eqv": 3700.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "PIEUX"
+  },
+  {
+    "art": "OUA.B2.7",
+    "description": "Essais statiques de pieux isolés sous compression axiale",
+    "um": "U",
+    "dzd": 1520000.0,
+    "euro": 0.0,
+    "dzd_eqv": 1520000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "PIEUX"
+  },
+  {
+    "art": "OUA.B3.1",
+    "description": "Creusement manuel ou mécanique des puits ? 3000 mm",
+    "um": "ml",
+    "dzd": 124999.63,
+    "euro": 1221.9,
+    "dzd_eqv": 250000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "PUITS"
+  },
+  {
+    "art": "OUA.B3.2",
+    "description": "Creusement manuel ou mécanique des puits ? 3500 mm",
+    "um": "ml",
+    "dzd": 135004.92,
+    "euro": 1319.6,
+    "dzd_eqv": 270000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "PUITS"
+  },
+  {
+    "art": "OUA.B4.1.1",
+    "description": "Coffrage ordinaire pour parties non vues",
+    "um": "m2",
+    "dzd": 853.21,
+    "euro": 7.3,
+    "dzd_eqv": 1600.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "COFFRAGES ET ETAIEMENT"
+  },
+  {
+    "art": "OUA.B4.1.2",
+    "description": "Coffrage fin pour parties vues",
+    "um": "m2",
+    "dzd": 1036.08,
+    "euro": 10.4,
+    "dzd_eqv": 2100.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "COFFRAGES ET ETAIEMENT"
+  },
+  {
+    "art": "OUA.B4.1.3",
+    "description": "Coffrages fins et supports pour voussoirs coulés en place en suspension ou préfabriqués",
+    "um": "m2",
+    "dzd": 808.48,
+    "euro": 22.4,
+    "dzd_eqv": 3100.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "COFFRAGES ET ETAIEMENT"
+  },
+  {
+    "art": "OUA.B4.2",
+    "description": "Étaiements",
+    "um": "m2",
+    "dzd": 2177.0,
+    "euro": 10.0,
+    "dzd_eqv": 3200.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "COFFRAGES ET ETAIEMENT"
+  },
+  {
+    "art": "OUA.B4.3",
+    "description": "Badigeonnage des parements enterrés",
+    "um": "m2",
+    "dzd": 759.08,
+    "euro": 0.4,
+    "dzd_eqv": 800.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "COFFRAGES ET ETAIEMENT"
+  },
+  {
+    "art": "OUA.B5.1",
+    "description": "Béton de propreté pour fond de fouille (ep=10 cm)",
+    "um": "m2",
+    "dzd": 723.79,
+    "euro": 2.7,
+    "dzd_eqv": 1000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.5 BÉTONS"
+  },
+  {
+    "art": "OUA.B5.2.1",
+    "description": "Béton RN 40 pour caisson",
+    "um": "m3",
+    "dzd": 21343.02,
+    "euro": 172.6,
+    "dzd_eqv": 39000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.5 BÉTONS"
+  },
+  {
+    "art": "OUA.B5.2.2",
+    "description": "Béton RN 40 pour poutres préfabriquées précontraintes, entretoises et bossages",
+    "um": "m3",
+    "dzd": 11814.08,
+    "euro": 150.4,
+    "dzd_eqv": 27200.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.5 BÉTONS"
+  },
+  {
+    "art": "OUA.B5.2.3",
+    "description": "Béton RN 35 pour poutres préfabriquées précontraintes, entretoises et bossages",
+    "um": "m3",
+    "dzd": 11029.87,
+    "euro": 113.1,
+    "dzd_eqv": 22600.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.5 BÉTONS"
+  },
+  {
+    "art": "OUA.B5.2.4",
+    "description": "Béton RN 27 pour pieux et puits",
+    "um": "m3",
+    "dzd": 8627.19,
+    "euro": 44.7,
+    "dzd_eqv": 13200.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.5 BÉTONS"
+  },
+  {
+    "art": "OUA.B5.2.5",
+    "description": "Béton RN 35 pour pieux et puits",
+    "um": "m3",
+    "dzd": 9247.65,
+    "euro": 44.5,
+    "dzd_eqv": 13800.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.5 BÉTONS"
+  },
+  {
+    "art": "OUA.B5.2.6",
+    "description": "Béton RN 35 pour piles",
+    "um": "m3",
+    "dzd": 12538.45,
+    "euro": 48.5,
+    "dzd_eqv": 17500.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.5 BÉTONS"
+  },
+  {
+    "art": "OUA.B5.2.7",
+    "description": "Béton RN 27 pour murs, semelles, dalle de transition, culées, piles, chevêtres, corniches, longrines, trottoirs et dallettes de couvertures préfabriquées",
+    "um": "m3",
+    "dzd": 10736.15,
+    "euro": 49.5,
+    "dzd_eqv": 15800.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.5 BÉTONS"
+  },
+  {
+    "art": "OUA.B5.2.8",
+    "description": "Béton RN 27 pour hourdis (dalle de couverture)",
+    "um": "m3",
+    "dzd": 11372.71,
+    "euro": 42.3,
+    "dzd_eqv": 15700.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.5 BÉTONS"
+  },
+  {
+    "art": "OUA.B5.2.9",
+    "description": "Plus-value pour l'utilisation du béton avec ciment CRS RN 27",
+    "um": "m3",
+    "dzd": 1200.0,
+    "euro": 0.0,
+    "dzd_eqv": 1200.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.5 BÉTONS"
+  },
+  {
+    "art": "OUA.B5.2.10",
+    "description": "Plus-value pour l'utilisation du béton avec ciment CRS RN 35",
+    "um": "m3",
+    "dzd": 1500.0,
+    "euro": 0.0,
+    "dzd_eqv": 1500.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.5 BÉTONS"
+  },
+  {
+    "art": "OUA.B6.1.1",
+    "description": "Acier HA",
+    "um": "Tonne",
+    "dzd": 67033.93,
+    "euro": 380.9,
+    "dzd_eqv": 106000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.6 ARMATURES PASSIVES ET DE PRECONTRAINTE"
+  },
+  {
+    "art": "OUA.B6.1.2",
+    "description": "Treillis soudés 150X150 ?10",
+    "um": "Tonne",
+    "dzd": 69026.52,
+    "euro": 527.6,
+    "dzd_eqv": 123000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.6 ARMATURES PASSIVES ET DE PRECONTRAINTE"
+  },
+  {
+    "art": "OUA.B6.2",
+    "description": "Armatures de précontrainte",
+    "um": "Tonne",
+    "dzd": 55688.54,
+    "euro": 3170.2,
+    "dzd_eqv": 379999.99999999994,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "B.6 ARMATURES PASSIVES ET DE PRECONTRAINTE"
+  },
+  {
+    "art": "OUA.B7.1.1",
+    "description": "Plot parasismique 2100/210/80, multidirectionnel",
+    "um": "U",
+    "dzd": 260001.71,
+    "euro": 3812.3,
+    "dzd_eqv": 650000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "APPAREILS DAPPUI"
+  },
+  {
+    "art": "OUA.B7.1.2",
+    "description": "Appareil d'appuis à pot 7500/210/80 multidirectionnel",
+    "um": "U",
+    "dzd": 449995.02,
+    "euro": 2932.6,
+    "dzd_eqv": 750000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "APPAREILS DAPPUI"
+  },
+  {
+    "art": "OUA.B7.1.3",
+    "description": "Appareil d'appuis à pot 35100/210/5 unidirectionnel",
+    "um": "U",
+    "dzd": 874995.19,
+    "euro": 15884.7,
+    "dzd_eqv": 2500000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "APPAREILS DAPPUI"
+  },
+  {
+    "art": "OUA.B7.1.4",
+    "description": "Appareil d'appuis à pot 35100/210/80 multidirectionnel",
+    "um": "U",
+    "dzd": 840001.59,
+    "euro": 12316.7,
+    "dzd_eqv": 2100000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "APPAREILS DAPPUI"
+  },
+  {
+    "art": "OUA.B7.1.5",
+    "description": "Appareil d'appuis à pot 5500/400/50 multidirectionnel",
+    "um": "U",
+    "dzd": 225001.38,
+    "euro": 2199.4,
+    "dzd_eqv": 450000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "APPAREILS DAPPUI"
+  },
+  {
+    "art": "OUA.B7.1.6",
+    "description": "Appareil d'appuis guidé 5500/1400",
+    "um": "U",
+    "dzd": 228000.87,
+    "euro": 3343.1,
+    "dzd_eqv": 570000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "APPAREILS DAPPUI"
+  },
+  {
+    "art": "OUA.B7.1.7",
+    "description": "Appareil d'appuis en élastomère fretté",
+    "um": "dm3",
+    "dzd": 106.97,
+    "euro": 36.1,
+    "dzd_eqv": 3800.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "APPAREILS DAPPUI"
+  },
+  {
+    "art": "B7.2",
+    "description": "Chape d'étanchéité sur l'ouvrage",
+    "um": "m2",
+    "dzd": 1895.4,
+    "euro": 2.0,
+    "dzd_eqv": 2100.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "APPAREILS DAPPUI"
+  },
+  {
+    "art": "OUA.B7.3",
+    "description": "Gargouilles",
+    "um": "U",
+    "dzd": 5128.39,
+    "euro": 0.7,
+    "dzd_eqv": 5200.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "APPAREILS DAPPUI"
+  },
+  {
+    "art": "OUA.B7.4",
+    "description": "Caniveau fil d'eau en asphalte porphyre",
+    "um": "ml",
+    "dzd": 1951.44,
+    "euro": 7.2,
+    "dzd_eqv": 2688.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "APPAREILS DAPPUI"
+  },
+  {
+    "art": "OUA.B7.5.1",
+    "description": "Souffle : 240mm",
+    "um": "ml",
+    "dzd": 9389.7,
+    "euro": 1961.0,
+    "dzd_eqv": 210000.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "JOINTS DE CHAUSSEE"
+  },
+  {
+    "art": "OUA.B7.5.2",
+    "description": "Souffle : 160mm",
+    "um": "ml",
+    "dzd": 10432.46,
+    "euro": 1559.8,
+    "dzd_eqv": 169999.99999999997,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "JOINTS DE CHAUSSEE"
+  },
+  {
+    "art": "OUA.B7.5.3",
+    "description": "Souffle : 80mm",
+    "um": "ml",
+    "dzd": 2326.43,
+    "euro": 905.9,
+    "dzd_eqv": 94999.99999999999,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "JOINTS DE CHAUSSEE"
+  },
+  {
+    "art": "OUA.B7.6.1",
+    "description": "Garde-corps type N2 selon le SETRA et la Norme 1317 (1,2)",
+    "um": "ml",
+    "dzd": 23146.55,
+    "euro": 1.5,
+    "dzd_eqv": 23300.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "DISPOSITIFS DE RETENUE"
+  },
+  {
+    "art": "OUA.B7.6.2",
+    "description": "Glissière de sécurité de niveau H3-16t et la Norme 1317 (1,2)",
+    "um": "ml",
+    "dzd": 3761.9,
+    "euro": 147.0,
+    "dzd_eqv": 18800.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "DISPOSITIFS DE RETENUE"
+  },
+  {
+    "art": "OUA.B7.6.3",
+    "description": "Barrières de sécurité  de niveau H4-b 38t SELON le SETRA",
+    "um": "ml",
+    "dzd": 7021.77,
+    "euro": 160.1,
+    "dzd_eqv": 23400.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "DISPOSITIFS DE RETENUE"
+  },
+  {
+    "art": "OUA.B7.7",
+    "description": "Dispositifs d'amortissement parasismique",
+    "um": "U",
+    "dzd": 579.41,
+    "euro": 12213.3,
+    "dzd_eqv": 1249999.9999999998,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "DISPOSITIFS DE RETENUE"
+  },
+  {
+    "art": "OUA.B8",
+    "description": "Multitubulaires",
+    "um": "ml",
+    "dzd": 1800.0,
+    "euro": 0.0,
+    "dzd_eqv": 1800.0,
+    "series": "SÉRIE B. CONSTRUCTION DOUVRAGES D'ART",
+    "category": "DISPOSITIFS DE RETENUE"
+  },
+  {
+    "art": "OUA.C1",
+    "description": "Rideaux de palplanches",
+    "um": "m2",
+    "dzd": 25000.0,
+    "euro": 0.0,
+    "dzd_eqv": 25000.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": null
+  },
+  {
+    "art": "OUA.C2",
+    "description": "Perres maçonnées",
+    "um": "m2",
+    "dzd": 2554.48,
+    "euro": 2.4,
+    "dzd_eqv": 2800.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": null
+  },
+  {
+    "art": "OUA.C4.2",
+    "description": "Béton projeté ep=100 mm",
+    "um": "m2",
+    "dzd": 1478.03,
+    "euro": 13.9,
+    "dzd_eqv": 2900.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "SOUTENEMENT DES TALUS DE DEBLAI PAR CLOUAGE"
+  },
+  {
+    "art": "OUA.C4.3",
+    "description": "Treillis soudées",
+    "um": "Kg",
+    "dzd": 71.85,
+    "euro": 0.5,
+    "dzd_eqv": 123.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "SOUTENEMENT DES TALUS DE DEBLAI PAR CLOUAGE"
+  },
+  {
+    "art": "OUA.C4.4.1",
+    "description": "Barbacane en PVC ? 50mm",
+    "um": "ml",
+    "dzd": 500.0,
+    "euro": 0.0,
+    "dzd_eqv": 500.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "SOUTENEMENT DES TALUS DE DEBLAI PAR CLOUAGE"
+  },
+  {
+    "art": "OUA.C4.4.2",
+    "description": "Barbacane en PVC ?100mm",
+    "um": "ml",
+    "dzd": 700.0,
+    "euro": 0.0,
+    "dzd_eqv": 700.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "SOUTENEMENT DES TALUS DE DEBLAI PAR CLOUAGE"
+  },
+  {
+    "art": "OUA.C4.1.1",
+    "description": "Clous de 32mm 16m",
+    "um": "U",
+    "dzd": 25618.47,
+    "euro": 31.1,
+    "dzd_eqv": 28800.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "CLOUS"
+  },
+  {
+    "art": "OUA.C4.1.2",
+    "description": "Clous de 32mm 12m",
+    "um": "U",
+    "dzd": 19226.64,
+    "euro": 23.2,
+    "dzd_eqv": 21600.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "CLOUS"
+  },
+  {
+    "art": "OUA.C5.1",
+    "description": "Pour mur de hauteur de 2m à 4m",
+    "um": "m2",
+    "dzd": 18500.0,
+    "euro": 0.0,
+    "dzd_eqv": 18500.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "MUR DE SOUTÊNEMENT EN BÉTON ARMÉ AVEC TRAITEMENT ARCHITECTURAL DES PAREMENTS VUS"
+  },
+  {
+    "art": "OUA.C5.2",
+    "description": "Pour mur de hauteur de 4m à 6m",
+    "um": "m2",
+    "dzd": 21000.0,
+    "euro": 0.0,
+    "dzd_eqv": 21000.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "MUR DE SOUTÊNEMENT EN BÉTON ARMÉ AVEC TRAITEMENT ARCHITECTURAL DES PAREMENTS VUS"
+  },
+  {
+    "art": "OUA.C5.3",
+    "description": "Pour mur de hauteur plus de 6m",
+    "um": "m2",
+    "dzd": 25000.0,
+    "euro": 0.0,
+    "dzd_eqv": 25000.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "MUR DE SOUTÊNEMENT EN BÉTON ARMÉ AVEC TRAITEMENT ARCHITECTURAL DES PAREMENTS VUS"
+  },
+  {
+    "art": "OUA.C6",
+    "description": "Mur de soutènement en gabion sur une hauteur max de 6 m",
+    "um": "m3",
+    "dzd": 5500.0,
+    "euro": 0.0,
+    "dzd_eqv": 5500.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "MUR DE SOUTÊNEMENT EN BÉTON ARMÉ AVEC TRAITEMENT ARCHITECTURAL DES PAREMENTS VUS"
+  },
+  {
+    "art": "OUA.NP.05",
+    "description": "Shock Trasmittal pour Voussoir",
+    "um": "U",
+    "dzd": 659476.9,
+    "euro": 53097.0,
+    "dzd_eqv": 6091300.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 07"
+  },
+  {
+    "art": "OUA.NP.06",
+    "description": "Isolateur simiques pour Viaducs a Voussoir",
+    "um": "U",
+    "dzd": 134282.61,
+    "euro": 15822.32,
+    "dzd_eqv": 1752905.946,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 07"
+  },
+  {
+    "art": "OUA.NP.09a",
+    "description": "Tirants jusqu’à 45 T compris plaque d'ancrage",
+    "um": "ml",
+    "dzd": 4260.0,
+    "euro": 89.0,
+    "dzd_eqv": 13364.699999999999,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 07"
+  },
+  {
+    "art": "OUA.NP.09b",
+    "description": "Tirants jusqu’à 75 T compris plaque d'ancrage",
+    "um": "ml",
+    "dzd": 4310.0,
+    "euro": 103.0,
+    "dzd_eqv": 14846.9,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 07"
+  },
+  {
+    "art": "OUA.NP.09c",
+    "description": "Essais non destructif pour tirantes",
+    "um": "U",
+    "dzd": 35832.83,
+    "euro": 133.77,
+    "dzd_eqv": 49517.501000000004,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 07"
+  },
+  {
+    "art": "OUA.NP.09d",
+    "description": "Essais destructif pour tirantes",
+    "um": "U",
+    "dzd": 96892.4,
+    "euro": 364.84,
+    "dzd_eqv": 134215.532,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 07"
+  },
+  {
+    "art": "OUA.NP.10",
+    "description": "Poutre métallique pour ancrage des tirants",
+    "um": "kg",
+    "dzd": 183.0,
+    "euro": 0.0,
+    "dzd_eqv": 183.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 07"
+  },
+  {
+    "art": "OUA.NP.35",
+    "description": "Joints pour dalot y compris polystyrène de type bandes agrée",
+    "um": "ml",
+    "dzd": 6820.0,
+    "euro": 0.0,
+    "dzd_eqv": 6820.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 07"
+  },
+  {
+    "art": "OUA.NP.36",
+    "description": "Géotextile anti-contaminant pour LOT OUVRAGES D'ART",
+    "um": "m²",
+    "dzd": 258.27,
+    "euro": 5.1,
+    "dzd_eqv": 779.9999999999999,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 07"
+  },
+  {
+    "art": "OUA.NP.57.1",
+    "description": "Appareil d'appui à pot 45000 KN / 6200 kN /6200 kN  Fixe",
+    "um": "U",
+    "dzd": 381136.9,
+    "euro": 29897.0,
+    "dzd_eqv": 3439600.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 07"
+  },
+  {
+    "art": "OUA.NP.57.2",
+    "description": "Appareil d'appui à pot 45000 KN / 6200 kN / + - 700 mm pour Viaducs a Voussoir",
+    "um": "U",
+    "dzd": 576958.6,
+    "euro": 49018.0,
+    "dzd_eqv": 5591499.999999999,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 07"
+  },
+  {
+    "art": "OUA.NP.57.3",
+    "description": "Appareil d'appui à pot multidirectionnel 12000 KN / + - 750 mm / + - 550 mm pour Viaducs a Voussoir",
+    "um": "U",
+    "dzd": 341437.9,
+    "euro": 26027.0,
+    "dzd_eqv": 3004000.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 07"
+  },
+  {
+    "art": "OUA.NP.59",
+    "description": "Passerelles permanentes en acier",
+    "um": "kg",
+    "dzd": 550.0,
+    "euro": 0.0,
+    "dzd_eqv": 550.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 07"
+  },
+  {
+    "art": "OUA.NP08.01",
+    "description": "Précontrainte extérieure",
+    "um": "Tonne",
+    "dzd": 124806.5,
+    "euro": 3628.48,
+    "dzd_eqv": 496000.004,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 08"
+  },
+  {
+    "art": "OUA.NP08.02",
+    "description": "Installation et assemblage de voussoirs  prèfabbriquès",
+    "um": "m3",
+    "dzd": 8711.3,
+    "euro": 131.37,
+    "dzd_eqv": 22150.451,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 08"
+  },
+  {
+    "art": "OUA.NP08.38",
+    "description": "Remblais contigus en matériaux concassés 0/63",
+    "um": "m3",
+    "dzd": 2134.02,
+    "euro": 2.6,
+    "dzd_eqv": 2400.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 08"
+  },
+  {
+    "art": "OUA.NP08.41",
+    "description": "Drain perforé 150 -160 mm pour dalot et OA  lot ouvrage d'art",
+    "um": "ml",
+    "dzd": 2700.0,
+    "euro": 0.0,
+    "dzd_eqv": 2700.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 08"
+  },
+  {
+    "art": "OUA.NP08.44",
+    "description": "Joint Water Stop pour dalot en PVC 200 à 250mm",
+    "um": "ml",
+    "dzd": 2550.0,
+    "euro": 0.0,
+    "dzd_eqv": 2550.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 08"
+  },
+  {
+    "art": "OUA.NP08.60",
+    "description": "Fourniture et mise en place de Grille en acier inox composè en fer rond fi 16 mm et corniere 40x40x4 mm",
+    "um": "U",
+    "dzd": 92769.59,
+    "euro": 0.0,
+    "dzd_eqv": 92769.59,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 08"
+  },
+  {
+    "art": "OUA.NP08.70",
+    "description": "Fourniture et pose des cales biaises",
+    "um": "U",
+    "dzd": 25000.0,
+    "euro": 0.0,
+    "dzd_eqv": 25000.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 08"
+  },
+  {
+    "art": "OUA.NP08.71",
+    "description": "Matériaux drainant pour purge ,en gravier 04/63",
+    "um": "m3",
+    "dzd": 2200.0,
+    "euro": null,
+    "dzd_eqv": 2200.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 08"
+  },
+  {
+    "art": "OUA.NP08.72",
+    "description": "Joint de chaussee souffle entre  100 mm  au 140mm",
+    "um": "ml",
+    "dzd": 31500.0,
+    "euro": 1030.0,
+    "dzd_eqv": 136869.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 08"
+  },
+  {
+    "art": "OUA.NP11.03",
+    "description": "Joints de chaussée avec souffle de 250 à 400 mm",
+    "um": "ml",
+    "dzd": 26173.22,
+    "euro": 3898.6,
+    "dzd_eqv": 425000.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 11"
+  },
+  {
+    "art": "OUA.NP.11.04",
+    "description": "Joints de chaussée avec souffle de 500 à 800 mm",
+    "um": "ml",
+    "dzd": 102606.0,
+    "euro": 9780.0,
+    "dzd_eqv": 1103100.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 11"
+  },
+  {
+    "art": "OUA.NP11.14a.2",
+    "description": "Exécutions de sondages carottés pour ouvrages nouveaux ou modifiés par rapport à l’APD",
+    "um": "ml",
+    "dzd": 18000.0,
+    "euro": 0.0,
+    "dzd_eqv": 18000.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 11"
+  },
+  {
+    "art": "OUA.NP11.14b.2",
+    "description": "Exécutions de sondages Pressiométriques pour ouvrages nouveaux ou modifiés par rapport à l’APD",
+    "um": "ml",
+    "dzd": 15500.0,
+    "euro": 0.0,
+    "dzd_eqv": 15500.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 11"
+  },
+  {
+    "art": "OUA.NP11.14c.2",
+    "description": "Essais Pressiométriques réalisés dans les trous de forage des sondages carottés pour ouvrages nouveaux ou modifiés par rapport à l’APD",
+    "um": "ml",
+    "dzd": 10000.0,
+    "euro": 0.0,
+    "dzd_eqv": 10000.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 11"
+  },
+  {
+    "art": "OUA.NP11.14d.2",
+    "description": "Essai Tomographie électrique",
+    "um": "ml",
+    "dzd": 851.0,
+    "euro": 0.0,
+    "dzd_eqv": 851.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 11"
+  },
+  {
+    "art": "OUA.NP11.14e.2",
+    "description": "Essai Sismique a réfraction",
+    "um": "ml",
+    "dzd": 1566.0,
+    "euro": 0.0,
+    "dzd_eqv": 1566.0,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 11"
+  },
+  {
+    "art": "OUA.NP11.58.1",
+    "description": "Fourniture et pose des éléments ancillaires en acier galvanisé à chaud",
+    "um": "kg",
+    "dzd": 1531.53,
+    "euro": 0.0,
+    "dzd_eqv": 1531.53,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 11"
+  },
+  {
+    "art": "OUA.NP11.84",
+    "description": "Béton RN35 pour hourdis (dalle de couverture) et pour radier de dalots à forte pente",
+    "um": "m³",
+    "dzd": 15206.72,
+    "euro": 42.14,
+    "dzd_eqv": 19517.642,
+    "series": "SÉRIE C. SOUTÊNEMENTS",
+    "category": "Nouveaux prix Avenant 11"
+  }
+]
