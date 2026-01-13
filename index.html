@@ -1,479 +1,765 @@
 <!doctype html>
-<html lang="tr">
+<html lang="fr">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Birim Fiyat Arama (GitHub Pages)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Birim Fiyatlar — Arama</title>
   <style>
     :root{
-      --bg:#f4f6f8; --card:#ffffff; --text:#1f2937; --muted:#6b7280; --line:#e5e7eb;
-      --accent:#2563eb; --accent2:#10b981; --danger:#ef4444;
-      --r:18px;
+      --bg:#f6f7f9;
+      --card:#ffffff;
+      --text:#111827;
+      --muted:#6b7280;
+      --line:#e5e7eb;
+      --hover:#f3f4f6;
+      --accent:#2563eb;
+      --accent2:#1d4ed8;
+      --radius:14px;
+      --shadow:0 10px 30px rgba(0,0,0,.06);
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono","Courier New", monospace;
+      --sans: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     }
     *{box-sizing:border-box}
     body{
-      margin:0; background:var(--bg); color:var(--text);
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      padding:16px;
+      margin:0;
+      font-family:var(--sans);
+      color:var(--text);
+      background:var(--bg);
     }
-    .wrap{max-width:1100px; margin:0 auto}
-    .card{
-      background:var(--card); border:1px solid var(--line); border-radius:var(--r);
-      box-shadow: 0 10px 30px rgba(0,0,0,.05);
-      padding:16px;
+    .app{
+      display:flex;
+      height:100vh;
+      gap:12px;
+      padding:12px;
     }
-    header{
-      display:flex; gap:12px; align-items:flex-start; justify-content:space-between; flex-wrap:wrap;
-      margin-bottom:12px;
-    }
-    h1{font-size:18px; margin:0}
-    .sub{color:var(--muted); font-size:12px; margin-top:4px}
-    .row{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
-    .grow{flex:1 1 280px}
-    input[type="search"], select{
-      width:100%;
-      padding:12px 12px;
+    .panel{
+      background:var(--card);
       border:1px solid var(--line);
-      border-radius:14px;
-      outline:none;
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      overflow:hidden;
+      display:flex;
+      flex-direction:column;
+      min-width:0;
+    }
+    /* Left: folders */
+    .sidebar{width:320px}
+    .sideHeader{
+      padding:14px 14px 10px;
+      border-bottom:1px solid var(--line);
+    }
+    .brand{
+      font-weight:800;
+      letter-spacing:.2px;
+      margin:0;
+      font-size:16px;
+    }
+    .hint{
+      margin:6px 0 0;
+      color:var(--muted);
+      font-size:12px;
+      line-height:1.35;
+    }
+    .tree{
+      padding:8px;
+      overflow:auto;
+    }
+    .treeItem{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      padding:10px 10px;
+      border-radius:12px;
+      cursor:pointer;
+      user-select:none;
+    }
+    .treeItem:hover{background:var(--hover)}
+    .treeItem.active{
+      background:rgba(37,99,235,.10);
+      border:1px solid rgba(37,99,235,.18);
+    }
+    .treeIcon{
+      width:18px;height:18px; flex:0 0 18px;
+      color:var(--muted);
+    }
+    .treeLabel{
+      font-size:13px;
+      line-height:1.25;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      flex:1;
+    }
+    .treeMeta{
+      color:var(--muted);
+      font-size:12px;
+      padding-left:28px;
+      margin-top:-6px;
+      padding-bottom:6px;
+    }
+    .children{margin-left:18px; border-left:1px dashed var(--line); padding-left:10px; display:none}
+    .children.open{display:block}
+    .chev{
+      width:16px;height:16px; flex:0 0 16px;
+      color:var(--muted);
+      transform:rotate(0deg);
+      transition:transform .12s ease;
+    }
+    .chev.open{transform:rotate(90deg)}
+    .spacer{height:8px}
+    /* Middle: list */
+    .main{flex:1}
+    .topbar{
+      padding:12px;
+      border-bottom:1px solid var(--line);
+      display:flex;
+      gap:10px;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+    .searchWrap{
+      flex:1;
+      min-width:220px;
+      display:flex;
+      gap:8px;
+      align-items:center;
+      border:1px solid var(--line);
+      border-radius:999px;
+      padding:10px 12px;
       background:#fff;
+    }
+    .searchWrap:focus-within{border-color:rgba(37,99,235,.35); box-shadow:0 0 0 4px rgba(37,99,235,.10)}
+    .searchIcon{width:18px;height:18px;color:var(--muted); flex:0 0 18px}
+    #q{
+      border:0; outline:0; width:100%;
       font-size:14px;
     }
-    input[type="search"]:focus, select:focus{border-color:rgba(37,99,235,.5); box-shadow:0 0 0 4px rgba(37,99,235,.12)}
+    .pill{
+      border:1px solid var(--line);
+      background:#fff;
+      border-radius:999px;
+      padding:10px 12px;
+      font-size:13px;
+      color:var(--text);
+      cursor:pointer;
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+    .pill:hover{background:var(--hover)}
+    .pill select{
+      border:0; outline:0; font-size:13px; background:transparent;
+      cursor:pointer;
+    }
+    .crumbs{
+      padding:0 12px 12px;
+      color:var(--muted);
+      font-size:12px;
+      border-bottom:1px solid var(--line);
+    }
+    .crumbs b{color:var(--text)}
+    .list{
+      overflow:auto;
+      padding:6px;
+    }
+    .row{
+      border-radius:14px;
+      padding:12px 12px;
+      display:flex;
+      gap:10px;
+      align-items:flex-start;
+      cursor:pointer;
+      border:1px solid transparent;
+    }
+    .row:hover{background:var(--hover)}
+    .row.active{
+      background:rgba(37,99,235,.08);
+      border-color:rgba(37,99,235,.16);
+    }
+    .fileIcon{
+      width:20px;height:20px; flex:0 0 20px;
+      color:var(--muted);
+      margin-top:2px;
+    }
+    .rowMain{min-width:0; flex:1}
+    .rowTitle{
+      display:flex;
+      gap:8px;
+      align-items:baseline;
+      min-width:0;
+    }
+    .art{
+      font-family:var(--mono);
+      font-weight:700;
+      font-size:13px;
+      color:var(--text);
+      padding:2px 8px;
+      border-radius:999px;
+      background:#f3f4f6;
+      border:1px solid var(--line);
+      flex:0 0 auto;
+    }
+    .desc{
+      font-size:14px;
+      font-weight:650;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+      flex:1;
+    }
+    .rowSub{
+      margin-top:4px;
+      color:var(--muted);
+      font-size:12px;
+      white-space:nowrap;
+      overflow:hidden;
+      text-overflow:ellipsis;
+    }
+    .priceTag{
+      flex:0 0 auto;
+      text-align:right;
+      margin-left:auto;
+      padding-left:8px;
+    }
+    .price{
+      font-weight:800;
+      font-size:14px;
+      letter-spacing:.1px;
+    }
+    .um{
+      color:var(--muted);
+      font-size:12px;
+      margin-top:2px;
+    }
+    /* Right: details */
+    .detail{width:420px}
+    .detailHeader{
+      padding:14px;
+      border-bottom:1px solid var(--line);
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:10px;
+    }
+    .detailTitle{
+      margin:0;
+      font-size:14px;
+      font-weight:900;
+      letter-spacing:.2px;
+    }
+    .badge{
+      font-family:var(--mono);
+      font-size:12px;
+      padding:4px 10px;
+      border-radius:999px;
+      border:1px solid var(--line);
+      background:#fff;
+      color:var(--text);
+      white-space:nowrap;
+      height:fit-content;
+    }
+    .detailBody{
+      padding:14px;
+      overflow:auto;
+    }
+    .bigDesc{
+      margin:8px 0 0;
+      font-size:16px;
+      font-weight:800;
+      line-height:1.25;
+    }
+    .kv{
+      margin-top:14px;
+      display:grid;
+      grid-template-columns: 120px 1fr;
+      gap:10px 12px;
+      align-items:start;
+    }
+    .k{color:var(--muted); font-size:12px; padding-top:3px}
+    .v{font-size:13px; line-height:1.35; word-break:break-word}
+    .copyRow{
+      margin-top:14px;
+      display:flex;
+      gap:10px;
+      flex-wrap:wrap;
+    }
     .btn{
       border:1px solid var(--line);
       background:#fff;
+      border-radius:12px;
       padding:10px 12px;
-      border-radius:14px;
+      font-size:13px;
       cursor:pointer;
-      font-weight:600;
+      display:flex;
+      align-items:center;
+      gap:8px;
+    }
+    .btn.primary{
+      background:var(--accent);
+      color:#fff;
+      border-color:rgba(0,0,0,0);
+    }
+    .btn.primary:hover{background:var(--accent2)}
+    .btn:hover{background:var(--hover)}
+    .btn.primary:hover{background:var(--accent2)}
+    .toast{
+      position:fixed;
+      left:50%;
+      bottom:18px;
+      transform:translateX(-50%);
+      background:#111827;
+      color:#fff;
+      padding:10px 12px;
+      border-radius:999px;
       font-size:13px;
-      display:inline-flex; align-items:center; gap:8px;
-      user-select:none;
+      opacity:0;
+      pointer-events:none;
+      transition:opacity .18s ease, transform .18s ease;
+      box-shadow:0 18px 40px rgba(0,0,0,.22);
     }
-    .btn.primary{background:var(--accent); color:#fff; border-color:transparent}
-    .btn.good{background:var(--accent2); color:#fff; border-color:transparent}
-    .btn.danger{background:var(--danger); color:#fff; border-color:transparent}
-    .btn:active{transform:translateY(1px)}
-    .pill{
-      padding:6px 10px; border:1px solid var(--line); border-radius:999px; font-size:12px; color:var(--muted);
-      background:#fff; white-space:nowrap;
-    }
-    .table-wrap{
-      margin-top:14px;
-      border:1px solid var(--line);
-      border-radius:16px;
-      overflow:hidden;
-      background:#fff;
-    }
-    table{width:100%; border-collapse:separate; border-spacing:0}
-    thead th{
-      position:sticky; top:0;
-      background:#fafafa;
-      border-bottom:1px solid var(--line);
-      font-size:12px; text-align:left; color:#374151;
-      padding:10px 10px;
-      z-index:1;
-      white-space:nowrap;
-    }
-    tbody td{
-      border-bottom:1px solid var(--line);
-      padding:10px 10px;
-      vertical-align:top;
+    .toast.show{opacity:1; transform:translateX(-50%) translateY(-4px)}
+    .empty{
+      padding:30px 18px;
+      text-align:center;
+      color:var(--muted);
       font-size:13px;
     }
-    tbody tr:hover{background:#f9fafb}
-    .num{font-variant-numeric: tabular-nums; text-align:right; white-space:nowrap}
-    .muted{color:var(--muted)}
-    .actions{display:flex; gap:8px; justify-content:flex-end}
-    .small{font-size:12px}
-    .chk{width:16px; height:16px}
-    .toolbar{display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-top:10px}
-    .right{margin-left:auto}
-    .hide-sm{display:table-cell}
-    @media (max-width:760px){
-      .hide-sm{display:none}
-      thead th{top:0}
+    /* Responsive */
+    @media (max-width: 1100px){
+      .detail{display:none}
     }
-    /* modal */
-    .backdrop{
-      position:fixed; inset:0; background:rgba(0,0,0,.35); display:none; align-items:center; justify-content:center;
-      padding:18px; z-index:20;
+    @media (max-width: 820px){
+      .sidebar{display:none}
+      .app{padding:10px}
     }
-    .modal{
-      width:min(720px, 100%);
-      background:#fff; border-radius:18px; border:1px solid var(--line);
-      box-shadow: 0 20px 60px rgba(0,0,0,.25);
-      padding:16px;
-    }
-    .modal h2{font-size:16px; margin:0}
-    .grid{
-      display:grid; grid-template-columns: 1fr 1fr;
-      gap:10px; margin-top:12px;
-    }
-    .kv{
-      border:1px solid var(--line); border-radius:14px; padding:10px;
-      background:#fff;
-    }
-    .kv .k{font-size:11px; color:var(--muted)}
-    .kv .v{font-size:13px; margin-top:2px; word-break:break-word}
-    @media (max-width:680px){ .grid{grid-template-columns:1fr} }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <div class="card">
-      <header>
-        <div>
-          <h1>Birim Fiyat Arama</h1>
-          <div class="sub">Excel'den çıkarılmış 377 kalem • Arama + filtre + CSV export • GitHub Pages'de çalışır</div>
-        </div>
-        <div class="row">
-          <span id="countPill" class="pill">Yükleniyor…</span>
-          <button class="btn" id="resetBtn" title="Filtreleri sıfırla">Sıfırla</button>
-        </div>
-      </header>
-
-      <div class="row">
-        <div class="grow">
-          <input id="q" type="search" placeholder="Ara: ART, açıklama, seri, kategori, UM… (ör: A3.1, béton, terrassement)" />
-        </div>
-        <div style="flex:1 1 200px;">
-          <select id="series"></select>
-        </div>
-        <div style="flex:1 1 200px;">
-          <select id="category"></select>
-        </div>
-        <div style="flex:0 0 140px;">
-          <select id="um"></select>
-        </div>
+  <div class="app">
+    <aside class="panel sidebar">
+      <div class="sideHeader">
+        <p class="brand">Birim Fiyatlar</p>
+        <p class="hint">Dropbox tarzı menü + arama. Soldan seri/kategori seç ya da üstte arat.</p>
       </div>
+      <div id="tree" class="tree"></div>
+    </aside>
 
-      <div class="toolbar">
-        <div class="row">
-          <select id="sort" style="min-width:220px;">
-            <option value="art_asc">Sırala: ART (A→Z)</option>
-            <option value="art_desc">Sırala: ART (Z→A)</option>
-            <option value="dzd_desc">Sırala: DZD (Büyük→Küçük)</option>
-            <option value="dzd_asc">Sırala: DZD (Küçük→Büyük)</option>
-            <option value="euro_desc">Sırala: Euro (Büyük→Küçük)</option>
-            <option value="euro_asc">Sırala: Euro (Küçük→Büyük)</option>
+    <main class="panel main">
+      <div class="topbar">
+        <div class="searchWrap" title="Arama: ART, description, UM, série, catégorie">
+          <svg class="searchIcon" viewBox="0 0 24 24" fill="none"><path d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15Z" stroke="currentColor" stroke-width="2"/><path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          <input id="q" placeholder="Ara… (örn: A1, beton, ankraj, m3)" autocomplete="off" />
+        </div>
+
+        <div class="pill" title="Para birimi affichée">
+          <span>Para birimi</span>
+          <select id="currency">
+            <option value="dzd">DZD</option>
+            <option value="euro">EUR</option>
+            <option value="dzd_eqv">DZD (Eqv)</option>
           </select>
         </div>
 
-        <div class="row right">
-          <button class="btn good" id="exportBtn" title="Seçilenleri CSV indir">CSV Export</button>
-          <button class="btn danger" id="clearSelBtn" title="Seçimleri temizle">Seçimi temizle</button>
+        <div class="pill" title="Sırala la liste">
+          <span>Sırala</span>
+          <select id="sort">
+            <option value="art">ART</option>
+            <option value="price_desc">Prix ↓</option>
+            <option value="price_asc">Prix ↑</option>
+          </select>
         </div>
+
+        <button class="pill" id="clear" title="Effacer la recherche et revenir au menu">Sıfırla</button>
       </div>
 
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th style="width:44px" title="Seç">✓</th>
-              <th style="width:110px">ART</th>
-              <th>Açıklama</th>
-              <th class="hide-sm">Seri</th>
-              <th class="hide-sm">Kategori</th>
-              <th style="width:70px">UM</th>
-              <th style="width:130px" class="num">DZD</th>
-              <th style="width:110px" class="num">Euro</th>
-              <th style="width:130px" class="num hide-sm">DZDéqv</th>
-              <th style="width:170px"></th>
-            </tr>
-          </thead>
-          <tbody id="tbody">
-            <tr><td colspan="10" class="muted">Yükleniyor…</td></tr>
-          </tbody>
-        </table>
-      </div>
+      <div class="crumbs" id="crumbs">Yükleniyor…</div>
+      <div class="list" id="list"></div>
+    </main>
 
-      <div class="sub" style="margin-top:10px">
-        İpucu: Bir satıra tıklayınca detay ekranı açılır. “Kopyala” ile kalemi panoya alabilirsin.
-      </div>
-    </div>
-  </div>
-
-  <!-- modal -->
-  <div class="backdrop" id="backdrop" role="dialog" aria-modal="true">
-    <div class="modal">
-      <div class="row" style="justify-content:space-between; align-items:flex-start">
+    <aside class="panel detail" id="detail">
+      <div class="detailHeader">
         <div>
-          <h2 id="mTitle">Detay</h2>
-          <div class="sub" id="mSub"></div>
+          <p class="detailTitle">Detay</p>
+          <p class="hint" style="margin:6px 0 0">Soldan bir kalem seç.</p>
         </div>
-        <div class="row">
-          <button class="btn" id="copyBtn">Kopyala</button>
-          <button class="btn primary" id="closeBtn">Kapat</button>
-        </div>
+        <span class="badge" id="badge">—</span>
       </div>
-      <div class="grid" id="mGrid"></div>
-    </div>
+      <div class="detailBody" id="detailBody">
+        <div class="empty">Seçili kalem yok.</div>
+      </div>
+    </aside>
   </div>
+
+  <div class="toast" id="toast">Kopyalandı ✅</div>
 
 <script>
-  const $ = (id)=>document.getElementById(id);
+  const $ = (s)=>document.querySelector(s);
+  const treeEl = $("#tree");
+  const listEl = $("#list");
+  const crumbsEl = $("#crumbs");
+  const detailBody = $("#detailBody");
+  const badgeEl = $("#badge");
+  const toastEl = $("#toast");
 
-  // diacritics-insensitive search
-  const norm = (s)=> (s ?? "").toString()
-    .normalize("NFD").replace(/\p{Diacritic}/gu,"")
-    .toLowerCase().trim();
+  const state = {
+    all: [],
+    tree: {},
+    seriesOpen: new Set(),
+    series: null,
+    category: null,
+    selectedKey: null,
+    q: "",
+    currency: "dzd",
+    sort: "art",
+  };
 
-  const money = (v)=> (v === null || v === undefined || Number.isNaN(v)) ? "" :
-    new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 3 }).format(v);
-
-  let ALL = [];
-  let VIEW = [];
-  const selected = new Set();
-
-  function uniq(arr){
-    return Array.from(new Set(arr.filter(x=>x && x.toString().trim() !== ""))).sort((a,b)=>a.localeCompare(b,"fr"));
+  function norm(str){
+    return (str ?? "")
+      .toString()
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g,"");
   }
 
-  function setOptions(selectEl, values, labelAll){
-    selectEl.innerHTML = "";
-    const opt0 = document.createElement("option");
-    opt0.value = "";
-    opt0.textContent = labelAll;
-    selectEl.appendChild(opt0);
-    values.forEach(v=>{
-      const o=document.createElement("option");
-      o.value=v; o.textContent=v;
-      selectEl.appendChild(o);
-    });
+  function fmt(num){
+    if (num === null || num === undefined || Number.isNaN(num)) return "—";
+    const n = Number(num);
+    // large numbers: keep grouped, 2 decimals max (but hide .00)
+    return new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 2 }).format(n);
   }
 
-  function apply(){
-    const q = norm($("q").value);
-    const series = $("series").value;
-    const category = $("category").value;
-    const um = $("um").value;
-    const sort = $("sort").value;
+  function toast(msg="Kopyalandı ✅"){
+    toastEl.textContent = msg;
+    toastEl.classList.add("show");
+    clearTimeout(toast._t);
+    toast._t = setTimeout(()=>toastEl.classList.remove("show"), 1200);
+  }
 
-    VIEW = ALL.filter(r=>{
-      if(series && r.series !== series) return false;
-      if(category && r.category !== category) return false;
-      if(um && r.um !== um) return false;
+  function buildTree(){
+    const t = {};
+    for (const it of state.all){
+      const s = it.series;
+      const c = it.category || "Sans catégorie";
+      t[s] ??= {};
+      t[s][c] ??= [];
+      t[s][c].push(it);
+    }
+    state.tree = t;
+  }
 
-      if(!q) return true;
-      const hay = norm([r.art, r.description, r.um, r.series, r.category].join(" "));
-      return hay.includes(q);
-    });
+  function countForSeries(series){
+    const cats = state.tree[series] || {};
+    let n=0;
+    for (const c in cats) n += cats[c].length;
+    return n;
+  }
 
-    // sort
-    const byNum = (k, dir)=>{
-      VIEW.sort((a,b)=>{
-        const av = (a[k] ?? -Infinity);
-        const bv = (b[k] ?? -Infinity);
-        return dir*(av-bv);
+  function iconFolder(){
+    return `<svg class="treeIcon" viewBox="0 0 24 24" fill="none">
+      <path d="M3 7.5A2.5 2.5 0 0 1 5.5 5h4.2a2.5 2.5 0 0 1 1.7.7l1.1 1.0c.5.5 1.2.8 1.9.8H18.5A2.5 2.5 0 0 1 21 10v7.5A2.5 2.5 0 0 1 18.5 20h-13A2.5 2.5 0 0 1 3 17.5V7.5Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>`;
+  }
+  function iconFile(){
+    return `<svg class="fileIcon" viewBox="0 0 24 24" fill="none">
+      <path d="M7 3h7l3 3v15a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+      <path d="M14 3v4a2 2 0 0 0 2 2h4" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+    </svg>`;
+  }
+
+  function renderTree(){
+    const seriesList = Object.keys(state.tree);
+    let html = "";
+
+    const allActive = state.series === null && state.category === null && !state.q;
+    html += `
+      <div class="treeItem ${allActive ? "active":""}" data-action="all">
+        ${iconFolder()}
+        <div class="treeLabel">Tümü</div>
+        <div class="treeMeta"></div>
+      </div>
+      <div class="spacer"></div>
+    `;
+
+    for (const s of seriesList){
+      const isActiveSeries = state.series === s && state.category === null && !state.q;
+      const isOpen = state.seriesOpen.has(s);
+      const n = countForSeries(s);
+
+      html += `
+        <div class="treeItem ${isActiveSeries ? "active":""}" data-action="series" data-series="${encodeURIComponent(s)}">
+          <svg class="chev ${isOpen ? "open":""}" viewBox="0 0 24 24" fill="none">
+            <path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          ${iconFolder()}
+          <div class="treeLabel" title="${s.replaceAll('"','&quot;')}">${s}</div>
+        </div>
+        <div class="treeMeta">${n} kalem</div>
+        <div class="children ${isOpen ? "open":""}" data-children="${encodeURIComponent(s)}">
+      `;
+
+      const cats = Object.keys(state.tree[s] || {}).sort((a,b)=>a.localeCompare(b,"fr",{sensitivity:"base"}));
+      for (const c of cats){
+        const activeCat = state.series === s && state.category === c && !state.q;
+        const cnt = state.tree[s][c].length;
+        html += `
+          <div class="treeItem ${activeCat ? "active":""}" data-action="cat" data-series="${encodeURIComponent(s)}" data-cat="${encodeURIComponent(c)}" style="padding-left:8px">
+            ${iconFolder()}
+            <div class="treeLabel" title="${c.replaceAll('"','&quot;')}">${c}</div>
+          </div>
+          <div class="treeMeta">${cnt} kalem</div>
+        `;
+      }
+      html += `</div><div class="spacer"></div>`;
+    }
+
+    treeEl.innerHTML = html;
+
+    treeEl.querySelectorAll(".treeItem").forEach(el=>{
+      el.addEventListener("click", (e)=>{
+        const action = el.dataset.action;
+        if (action==="all"){
+          state.series = null; state.category = null; state.q = "";
+          $("#q").value = "";
+          renderAll();
+          return;
+        }
+        if (action==="series"){
+          const s = decodeURIComponent(el.dataset.series);
+          // click on chevron zone toggles open, but also selects the series
+          if (state.seriesOpen.has(s)) state.seriesOpen.delete(s);
+          else state.seriesOpen.add(s);
+          state.series = s; state.category = null; state.q = "";
+          $("#q").value = "";
+          renderAll();
+          return;
+        }
+        if (action==="cat"){
+          const s = decodeURIComponent(el.dataset.series);
+          const c = decodeURIComponent(el.dataset.cat);
+          state.seriesOpen.add(s);
+          state.series = s; state.category = c; state.q = "";
+          $("#q").value = "";
+          renderAll();
+          return;
+        }
       });
-    };
-    if(sort==="art_asc") VIEW.sort((a,b)=>a.art.localeCompare(b.art,"fr",{numeric:true}));
-    if(sort==="art_desc") VIEW.sort((a,b)=>b.art.localeCompare(a.art,"fr",{numeric:true}));
-    if(sort==="dzd_desc") byNum("dzd",-1);
-    if(sort==="dzd_asc") byNum("dzd",+1);
-    if(sort==="euro_desc") byNum("euro",-1);
-    if(sort==="euro_asc") byNum("euro",+1);
+    });
+  }
 
-    render();
-    $("countPill").textContent = `${VIEW.length} / ${ALL.length} sonuç • Seçili: ${selected.size}`;
+  function itemKey(it){ return `${it.art}||${it.series}||${it.category||""}`; }
+
+  function matches(it, qn){
+    const hay = [
+      it.art, it.description, it.um, it.series, it.category
+    ].map(norm).join(" ");
+    return hay.includes(qn);
+  }
+
+  function getVisibleItems(){
+    let items;
+    if (state.q){
+      const qn = norm(state.q.trim());
+      items = state.all.filter(it => matches(it, qn));
+    } else if (state.series && state.category){
+      items = (state.tree[state.series]?.[state.category] || []);
+    } else if (state.series){
+      // all items in series
+      const cats = state.tree[state.series] || {};
+      items = Object.values(cats).flat();
+    } else {
+      items = state.all;
+    }
+
+    // sorting
+    if (state.sort === "art"){
+      items = [...items].sort((a,b)=> (a.art||"").localeCompare((b.art||""), "fr", {numeric:true, sensitivity:"base"}));
+    } else if (state.sort === "price_desc" || state.sort === "price_asc"){
+      const k = state.currency;
+      items = [...items].sort((a,b)=>{
+        const da = Number(a[k] ?? -Infinity);
+        const db = Number(b[k] ?? -Infinity);
+        return state.sort === "price_desc" ? (db-da) : (da-db);
+      });
+    }
+    return items;
+  }
+
+  function crumbs(){
+    if (state.q){
+      return `Arama: <b>${escapeHtml(state.q)}</b>`;
+    }
+    if (state.series && state.category){
+      return `<b>${escapeHtml(state.series)}</b>  ›  ${escapeHtml(state.category)}`;
+    }
+    if (state.series){
+      return `<b>${escapeHtml(state.series)}</b>`;
+    }
+    return `Tümü`;
   }
 
   function escapeHtml(s){
     return (s??"").toString()
-      .replaceAll("&","&amp;").replaceAll("<","&lt;")
-      .replaceAll(">","&gt;").replaceAll("\"","&quot;")
+      .replaceAll("&","&amp;")
+      .replaceAll("<","&lt;")
+      .replaceAll(">","&gt;")
+      .replaceAll('"',"&quot;")
       .replaceAll("'","&#039;");
   }
 
-  function render(){
-    const tb = $("tbody");
-    if(VIEW.length===0){
-      tb.innerHTML = `<tr><td colspan="10" class="muted">Sonuç yok. Filtreleri sıfırla veya arama kelimesini değiştir.</td></tr>`;
+  function priceText(it){
+    const k = state.currency;
+    const label = k==="dzd" ? "DZD" : (k==="euro" ? "EUR" : "DZD Eqv");
+    return `${fmt(it[k])} ${label}`;
+  }
+
+  function renderList(){
+    const items = getVisibleItems();
+    crumbsEl.innerHTML = `${crumbs()} <span style="color:#9ca3af">— ${items.length} sonuç</span>`;
+
+    if (!items.length){
+      listEl.innerHTML = `<div class="empty">Sonuç yok. Başka bir kelime dene (örn: beton, ankraj, m3, A1…).</div>`;
+      // clear details if selected not in view
       return;
     }
-    const rows = VIEW.slice(0, 500).map(r=>{
-      const isSel = selected.has(r.art);
-      const desc = escapeHtml(r.description);
-      const series = escapeHtml(r.series ?? "");
-      const cat = escapeHtml(r.category ?? "");
-      const um = escapeHtml(r.um ?? "");
-      const dzd = money(r.dzd);
-      const euro = money(r.euro);
-      const eqv = money(r.dzd_eqv);
 
+    const rows = items.map(it=>{
+      const key = itemKey(it);
+      const active = state.selectedKey === key;
+      const sub = `${it.um ? "UM: "+escapeHtml(it.um) : "UM: —"} • ${escapeHtml(it.category||"Sans catégorie")} • ${escapeHtml(it.series)}`;
       return `
-        <tr data-art="${escapeHtml(r.art)}" class="r">
-          <td><input class="chk" type="checkbox" data-sel="${escapeHtml(r.art)}" ${isSel?"checked":""}></td>
-          <td><b>${escapeHtml(r.art)}</b></td>
-          <td>${desc}</td>
-          <td class="hide-sm"><span class="small">${series}</span></td>
-          <td class="hide-sm"><span class="small">${cat}</span></td>
-          <td>${um}</td>
-          <td class="num">${dzd}</td>
-          <td class="num">${euro}</td>
-          <td class="num hide-sm">${eqv}</td>
-          <td>
-            <div class="actions">
-              <button class="btn" data-copy="${escapeHtml(r.art)}">Kopyala</button>
-              <button class="btn primary" data-open="${escapeHtml(r.art)}">Detay</button>
+        <div class="row ${active ? "active":""}" data-key="${escapeHtml(key)}">
+          ${iconFile()}
+          <div class="rowMain">
+            <div class="rowTitle">
+              <span class="art">${escapeHtml(it.art)}</span>
+              <span class="desc" title="${escapeHtml(it.description)}">${escapeHtml(it.description)}</span>
             </div>
-          </td>
-        </tr>
+            <div class="rowSub" title="${sub}">${sub}</div>
+          </div>
+          <div class="priceTag">
+            <div class="price">${escapeHtml(priceText(it))}</div>
+            <div class="um">${escapeHtml(it.um || "—")}</div>
+          </div>
+        </div>
       `;
     }).join("");
-    tb.innerHTML = rows;
+
+    listEl.innerHTML = rows;
+
+    listEl.querySelectorAll(".row").forEach(el=>{
+      el.addEventListener("click", ()=>{
+        const key = el.dataset.key;
+        const it = state.all.find(x => itemKey(x) === key);
+        if (!it) return;
+        state.selectedKey = key;
+        renderList();        // to update highlight
+        renderDetail(it);
+      });
+    });
   }
 
-  function getByArt(art){ return ALL.find(r=>r.art===art); }
-
-  async function copyText(t){
-    try{ await navigator.clipboard.writeText(t); }
-    catch(e){
-      const ta=document.createElement("textarea");
-      ta.value=t; document.body.appendChild(ta); ta.select();
-      document.execCommand("copy"); ta.remove();
-    }
+  function copyToClipboard(text){
+    navigator.clipboard.writeText(text).then(()=>toast("Kopyalandı ✅")).catch(()=>toast("Kopyalanamadı"));
   }
 
-  function openModal(r){
-    $("mTitle").textContent = `${r.art} • ${r.um || ""}`.trim();
-    $("mSub").textContent = `${r.series || ""}${r.category ? " • " + r.category : ""}`;
+  function renderDetail(it){
+    badgeEl.textContent = it.art || "—";
 
-    const items = [
-      ["ART", r.art],
-      ["Açıklama", r.description],
-      ["UM", r.um],
-      ["DZD", money(r.dzd)],
-      ["Euro", money(r.euro)],
-      ["DZDéqv", money(r.dzd_eqv)],
-      ["Seri", r.series],
-      ["Kategori", r.category ?? ""],
+    const price = priceText(it);
+    const parts = [
+      ["Série", it.series],
+      ["Catégorie", it.category || "Sans catégorie"],
+      ["UM", it.um || "—"],
+      ["Prix (DZD)", it.dzd != null ? fmt(it.dzd) : "—"],
+      ["Prix (EUR)", it.euro != null ? fmt(it.euro) : "—"],
+      ["DZD (Eqv)", it.dzd_eqv != null ? fmt(it.dzd_eqv) : "—"],
     ];
 
-    $("mGrid").innerHTML = items.map(([k,v])=>`
-      <div class="kv">
-        <div class="k">${escapeHtml(k)}</div>
-        <div class="v">${escapeHtml(v ?? "")}</div>
-      </div>
+    const kv = parts.map(([k,v])=>`
+      <div class="k">${escapeHtml(k)}</div>
+      <div class="v">${escapeHtml(v)}</div>
     `).join("");
 
-    $("backdrop").style.display="flex";
-    $("copyBtn").onclick = async ()=>{
-      const txt = `${r.art} | ${r.description} | UM:${r.um} | DZD:${r.dzd ?? ""} | Euro:${r.euro ?? ""} | DZDéqv:${r.dzd_eqv ?? ""}\n${r.series || ""}${r.category ? " / " + r.category : ""}`;
-      await copyText(txt);
-      $("copyBtn").textContent = "Kopyalandı ✓";
-      setTimeout(()=> $("copyBtn").textContent="Kopyala", 900);
-    };
+    const oneLine = `${it.art} - ${it.description} | UM: ${it.um||"—"} | ${price}`;
+
+    detailBody.innerHTML = `
+      <div class="badge" style="display:inline-block">${escapeHtml(price)}</div>
+      <div class="bigDesc">${escapeHtml(it.description)}</div>
+
+      <div class="kv">${kv}</div>
+
+      <div class="copyRow">
+        <button class="btn primary" id="copy1">Satırı kopyala</button>
+        <button class="btn" id="copy2">ART kopyala</button>
+        <button class="btn" id="copy3">Fiyatı kopyala (${escapeHtml(state.currency)})</button>
+      </div>
+
+      <div style="margin-top:14px;color:var(--muted);font-size:12px;line-height:1.4">
+        İpucu: <b>ART</b> (A1…), kelime (beton, ankraj…), <b>UM</b> (m3, ml…), seri veya kategori ile arayabilirsin.
+      </div>
+    `;
+
+    $("#copy1").onclick = ()=>copyToClipboard(oneLine);
+    $("#copy2").onclick = ()=>copyToClipboard(it.art || "");
+    $("#copy3").onclick = ()=>copyToClipboard(String(it[state.currency] ?? ""));
   }
 
-  function closeModal(){ $("backdrop").style.display="none"; }
-
-  function toCSV(rows){
-    const head = ["ART","DESCRIPTION","UM","DZD","Euro","DZDeqv","SERIES","CATEGORY"];
-    const esc = (s)=>{
-      const v = (s ?? "").toString();
-      if(/[",\n]/.test(v)) return `"${v.replaceAll('"','""')}"`;
-      return v;
-    };
-    const lines = [head.join(",")].concat(rows.map(r=>[
-      r.art, r.description, r.um, r.dzd ?? "", r.euro ?? "", r.dzd_eqv ?? "", r.series ?? "", r.category ?? ""
-    ].map(esc).join(",")));
-    return lines.join("\n");
-  }
-
-  function download(filename, content, mime){
-    const blob = new Blob([content], {type: mime});
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
-    a.download = filename;
-    document.body.appendChild(a);
-    a.click();
-    a.remove();
-    setTimeout(()=>URL.revokeObjectURL(a.href), 1000);
+  function renderAll(){
+    renderTree();
+    renderList();
   }
 
   async function init(){
+    crumbsEl.textContent = "Yükleniyor…";
     const res = await fetch("./pricing.json", {cache:"no-store"});
-    ALL = await res.json();
+    state.all = await res.json();
 
-    setOptions($("series"), uniq(ALL.map(r=>r.series)), "Seri: Hepsi");
-    setOptions($("category"), uniq(ALL.map(r=>r.category)), "Kategori: Hepsi");
-    setOptions($("um"), uniq(ALL.map(r=>r.um)), "UM: Hepsi");
+    buildTree();
 
-    ["q","series","category","um","sort"].forEach(id=>{
-      $(id).addEventListener("input", apply);
-      $(id).addEventListener("change", apply);
+    // default open first series
+    const firstSeries = Object.keys(state.tree)[0];
+    if (firstSeries) state.seriesOpen.add(firstSeries);
+
+    // initial view
+    renderAll();
+
+    // wire inputs
+    $("#q").addEventListener("input", (e)=>{
+      state.q = e.target.value || "";
+      // when searching, remove folder selection highlight feel
+      renderTree();
+      renderList();
     });
 
-    $("resetBtn").onclick = ()=>{
-      $("q").value=""; $("series").value=""; $("category").value=""; $("um").value="";
-      $("sort").value="art_asc";
-      apply();
-    };
-
-    $("clearSelBtn").onclick = ()=>{ selected.clear(); apply(); };
-
-    $("exportBtn").onclick = ()=>{
-      const rows = ALL.filter(r=>selected.has(r.art));
-      if(rows.length===0){
-        alert("Önce en az 1 kalem seç (soldaki checkbox).");
-        return;
-      }
-      const csv = toCSV(rows);
-      download("selected_pricing.csv", csv, "text/csv;charset=utf-8");
-    };
-
-    $("tbody").addEventListener("click", async (ev)=>{
-      const t = ev.target;
-
-      // checkbox
-      if(t && t.matches('input[type="checkbox"][data-sel]')){
-        const art = t.getAttribute("data-sel");
-        if(t.checked) selected.add(art); else selected.delete(art);
-        $("countPill").textContent = `${VIEW.length} / ${ALL.length} sonuç • Seçili: ${selected.size}`;
-        return;
-      }
-
-      // buttons
-      if(t && t.matches('button[data-copy]')){
-        const art = t.getAttribute("data-copy");
-        const r = getByArt(art);
-        if(!r) return;
-        const txt = `${r.art} | ${r.description} | UM:${r.um} | DZD:${r.dzd ?? ""} | Euro:${r.euro ?? ""} | DZDéqv:${r.dzd_eqv ?? ""}`;
-        await copyText(txt);
-        t.textContent="Kopyalandı ✓";
-        setTimeout(()=>t.textContent="Kopyala", 900);
-        return;
-      }
-      if(t && t.matches('button[data-open]')){
-        const art = t.getAttribute("data-open");
-        const r = getByArt(art);
-        if(r) openModal(r);
-        return;
-      }
-
-      // row click -> modal
-      const tr = t.closest("tr[data-art]");
-      if(tr){
-        const art = tr.getAttribute("data-art");
-        const r = getByArt(art);
-        if(r) openModal(r);
-      }
+    $("#currency").addEventListener("change", (e)=>{
+      state.currency = e.target.value;
+      renderList();
+      // refresh detail (keep selection)
+      const it = state.all.find(x => itemKey(x) === state.selectedKey);
+      if (it) renderDetail(it);
     });
 
-    $("closeBtn").onclick = closeModal;
-    $("backdrop").addEventListener("click", (e)=>{ if(e.target.id==="backdrop") closeModal(); });
-    window.addEventListener("keydown", (e)=>{ if(e.key==="Escape") closeModal(); });
+    $("#sort").addEventListener("change", (e)=>{
+      state.sort = e.target.value;
+      renderList();
+    });
 
-    apply();
+    $("#clear").addEventListener("click", ()=>{
+      state.q = "";
+      $("#q").value = "";
+      state.series = null;
+      state.category = null;
+      state.selectedKey = null;
+      badgeEl.textContent = "—";
+      detailBody.innerHTML = `<div class="empty">Seçili kalem yok.</div>`;
+      renderAll();
+    });
   }
 
   init().catch(err=>{
     console.error(err);
-    $("tbody").innerHTML = `<tr><td colspan="10" class="muted">Hata: veri yüklenemedi. pricing.json aynı klasörde mi? (Console'a bak)</td></tr>`;
-    $("countPill").textContent = "Hata";
+    crumbsEl.textContent = "Hata: pricing.json yüklenemedi";
+    listEl.innerHTML = `<div class="empty"><b>pricing.json</b>, <b>index.html</b> ile aynı klasörde olmalı.</div>`;
   });
 </script>
 </body>

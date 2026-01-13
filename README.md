@@ -1,26 +1,12 @@
-# Birim Fiyat Arama (GitHub Pages)
+# Birim fiyatlar (GitHub Pages)
 
-Bu repo, `Data base Pricing.xlsx` dosyasındaki birim fiyatları **tarayıcıda** aramak/filtrelemek için hazırlanmış basit bir web uygulamasıdır.
+Dropbox tarzı arayüz: menu à gauche (séries / catégories), recherche, liste au centre, détails à droite.
 
-## Özellikler
-- ART / Açıklama / Seri / Kategori / UM üzerinde arama
-- Seri, Kategori, UM filtreleri
-- Sıralama (ART, DZD, Euro)
-- Satır detay ekranı + panoya kopyalama
-- Seçilen kalemleri CSV export
+## Publier sur GitHub Pages
+1. Copie `index.html` + `pricing.json` à la racine du repo
+2. GitHub → Settings → Pages
+3. Source: Deploy from a branch
+4. Branch: main / folder: /(root)
 
-## GitHub Pages ile yayınlama
-1. Bu repo’yu GitHub’a yükle.
-2. **Settings → Pages**
-3. **Build and deployment → Source: Deploy from a branch**
-4. Branch: `main` / Folder: `/ (root)`
-5. Kaydet → sayfa `https://<kullanici>.github.io/<repo>/` adresinde açılır.
-
-## Veri güncelleme
-Yeni Excel gelirse `pricing.json` dosyasını yeniden üretmen yeterli.
-
-Aşağıdaki script’i kullanabilirsin (opsiyonel):
-- `build_data.py` dosyasını çalıştır
-- ürettiği `pricing.json`’u repoya koy
-
-> Not: GitHub Pages’te `fetch("./pricing.json")` çalışması için dosya aynı klasörde olmalı.
+## Mettre à jour les données
+- Remplace ton Excel et relance `build_data.py` (optionnel) pour régénérer `pricing.json`.
